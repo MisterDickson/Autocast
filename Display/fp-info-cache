@@ -1,4 +1,4 @@
-25612946772799636
+25614695627037044
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59163,6 +59163,13 @@ ACPSC04-41SEKWA
 0
 16
 16
+External_Parts
+CONN_12402032E202A_AMP
+
+12402032E202A 
+0
+28
+28
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
