@@ -60750,7 +60750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "External_Parts:CON_2004850460_MOL"
 			(at 807.72 458.47 0)
 			(effects
 				(font
@@ -86923,7 +86923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "External_Parts:CON_2004850460_MOL"
 			(at 101.6 151.13 0)
 			(effects
 				(font
