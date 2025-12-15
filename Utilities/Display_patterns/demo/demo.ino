@@ -144,7 +144,7 @@ void setup() {
 
   display_text("Prof. Helfers Mazda 323    ");
 
-  delay(2000);
+  delay(10000);
 }
 void loop() {
   digitalWrite(latchPin, LOW);
