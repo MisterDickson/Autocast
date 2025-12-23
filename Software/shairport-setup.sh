@@ -59,7 +59,7 @@ git clone https://github.com/mikebrady/shairport-sync.git
 cd shairport-sync
 autoreconf -fi
 ./configure --sysconfdir=/etc --with-alsa \
-    --with-soxr --with-avahi --with-ssl=openssl --with-systemd --with-airplay-2 --with-metadata
+    --with-soxr --with-avahi --with-ssl=openssl --with-airplay-2 --with-metadata
 make
 make install
 cd ~
@@ -74,7 +74,7 @@ cd ~
 # Install metadata-printer
 mkdir metadata-printer
 cd metadata-printer
-cat > metadata-reader.c <<'EOF'
+cat > metadata-printer.c <<'EOF'
 #include <fcntl.h>
 #include <unistd.h>
 #include <sys/ioctl.h>
