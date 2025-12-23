@@ -237,7 +237,7 @@ static display_line_t auto_scroll_line_state(scroll_state_t *st, const char *lin
     }
 
     // Scroll period includes ONE separator space
-    const size_t period = len + 1;
+    const size_t period = len + 3;
 
     for (size_t i = 0; i < 14; i++) {
         size_t src_pos = (st->scroll_progress + i) % period;
@@ -355,4 +355,3 @@ int main(void) {
     close(fd);
     return 0;
 }
-
