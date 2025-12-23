@@ -458,4 +458,5 @@ EOF
 systemctl daemon-reload
 systemctl enable shairport-custom.service
 systemctl start shairport-custom.service
+rm -- "$0"
 reboot now
