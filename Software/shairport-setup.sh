@@ -458,5 +458,4 @@ EOF
 systemctl daemon-reload
 systemctl enable shairport-custom.service
 systemctl start shairport-custom.service
-echo "A reboot is recommended to apply changes."
-echo "Run: sudo reboot now"
+reboot now
