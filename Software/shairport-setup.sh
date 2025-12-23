@@ -68,7 +68,7 @@ cd shairport-sync-metadata-reader
 autoreconf -i -f
 ./configure
 make
-sudo make install
+make install
 cd ~
 
 # Install metadata-printer
@@ -434,13 +434,13 @@ int main(void) {
 }
 EOF
 gcc -o metadata-printer metadata-printer.c
-sudo mv ./metadata-printer /usr/local/bin/metadata-printer
+mv ./metadata-printer /usr/local/bin/metadata-printer
 rm *
 cd ..
 rmdir metadata-printer
 
 # Autostart shairport-sync, metadata-reader and metadata-printer
-sudo cat > /etc/systemd/system/shairport-custom.service << 'EOF'
+cat > /etc/systemd/system/shairport-custom.service << 'EOF'
 [Unit]
 Description=Shairport Sync with Metadata Reader
 After=network.target sound.target
@@ -455,9 +455,9 @@ User=admin
 WantedBy=multi-user.target
 EOF
 
-sudo systemctl daemon-reload
-sudo systemctl enable shairport-custom.service
-sudo systemctl start shairport-custom.service
+systemctl daemon-reload
+systemctl enable shairport-custom.service
+systemctl start shairport-custom.service
 
 # Enable Overlay File System via raspi-config (Bookworm)
 # raspi-config nonint supports overlayfs; this will set up RO root + writable overlay for /etc
