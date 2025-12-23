@@ -1,3 +1,80 @@
+#!/usr/bin/env bash
+apt update
+apt upgrade
+
+set -euo pipefail
+
+CONFIG="/boot/firmware/config.txt"
+BACKUP="/boot/firmware/config.txt.bak.$(date +%Y%m%d-%H%M%S)"
+
+echo "Backing up ${CONFIG} to ${BACKUP}..."
+cp -a "$CONFIG" "$BACKUP"
+
+# Ensure file ends with a newline to keep sed/appends clean
+printf "\n" >> "$CONFIG"
+
+# Comment out 'dtparam=audio=on' if it exists (handles leading spaces)
+if grep -Eq '^\s*dtparam=audio=on\s*$' "$CONFIG"; then
+  echo "Commenting out 'dtparam=audio=on'..."
+  # Replace whole line with commented version; keep only one commented line
+  sed -i 's/^\s*dtparam=audio=on\s*$/# dtparam=audio=on/' "$CONFIG"
+else
+  echo "'dtparam=audio=on' not found; nothing to comment."
+fi
+
+# Add 'dtoverlay=hifiberry-dac' if not present
+if grep -Eq '^\s*dtoverlay=hifiberry-dac\s*$' "$CONFIG"; then
+  echo "'dtoverlay=hifiberry-dac' already present; skipping."
+else
+  echo "Adding 'dtoverlay=hifiberry-dac'..."
+  # Put near the end for clarity
+  printf "dtoverlay=hifiberry-dac\n" >> "$CONFIG"
+fi
+
+# Enable SPI via config.txt (safe and idempotent)
+if grep -Eq '^\s*dtparam=spi=on\s*$' "$CONFIG"; then
+  echo "SPI already enabled in config.txt; skipping."
+else
+  # Remove any explicit spi=off first, then add spi=on
+  sed -i '/^\s*dtparam=spi=off\s*$/d' "$CONFIG"
+  echo "Enabling SPI via 'dtparam=spi=on' in config.txt..."
+  printf "dtparam=spi=on\n" >> "$CONFIG"
+fi
+
+# Install shairport-sync incl. dependencies and metadata-reader
+cd ~
+apt install --no-install-recommends build-essential git autoconf automake libtool \
+    libpopt-dev libconfig-dev libasound2-dev avahi-daemon libavahi-client-dev libssl-dev libsoxr-dev \
+    libplist-dev libsodium-dev libavutil-dev libavcodec-dev libavformat-dev uuid-dev libgcrypt-dev xxd
+git clone https://github.com/mikebrady/nqptp.git
+cd nqptp
+autoreconf -fi
+./configure --with-systemd-startup
+make
+make install
+systemctl enable nqptp
+systemctl start nqptp
+cd  ~
+git clone https://github.com/mikebrady/shairport-sync.git
+cd shairport-sync
+autoreconf -fi
+./configure --sysconfdir=/etc --with-alsa \
+    --with-soxr --with-avahi --with-ssl=openssl --with-systemd --with-airplay-2 --with-metadata
+make
+make install
+cd ~
+git clone https://github.com/mikebrady/shairport-sync-metadata-reader.git
+cd shairport-sync-metadata-reader
+autoreconf -i -f
+./configure
+make
+sudo make install
+cd ~
+
+# Install metadata-printer
+mkdir metadata-printer
+cd metadata-printer
+cat > metadata-reader.c <<'EOF'
 #include <fcntl.h>
 #include <unistd.h>
 #include <sys/ioctl.h>
@@ -355,3 +432,51 @@ int main(void) {
     close(fd);
     return 0;
 }
+EOF
+gcc -o metadata-printer metadata-printer.c
+sudo mv ./metadata-printer /usr/local/bin/metadata-printer
+rm *
+cd ..
+rmdir metadata-printer
+
+# Autostart shairport-sync, metadata-reader and metadata-printer
+sudo cat > /etc/systemd/system/shairport-custom.service << 'EOF'
+[Unit]
+Description=Shairport Sync with Metadata Reader
+After=network.target sound.target
+
+[Service]
+Type=forking
+ExecStart=/bin/bash -c 'shairport-sync & sleep 2; while [ ! -p /tmp/shairport-sync-metadata ]; do sleep 0.5; done; shairport-sync-metadata-reader < /tmp/shairport-sync-metadata | metadata-printer &'
+Restart=on-failure
+User=admin
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+sudo systemctl daemon-reload
+sudo systemctl enable shairport-custom.service
+sudo systemctl start shairport-custom.service
+
+# Enable Overlay File System via raspi-config (Bookworm)
+# raspi-config nonint supports overlayfs; this will set up RO root + writable overlay for /etc
+if command -v raspi-config >/dev/null 2>&1; then
+  echo "Enabling Overlay File System via raspi-config..."
+  # In recent Raspberry Pi OS, the non-interactive command is:
+  #   raspi-config nonint do_overlayfs 1
+  # 1 = enable, 0 = disable
+  if raspi-config nonint do_overlayfs 1; then
+    echo "Overlay File System enabled."
+  else
+    echo "Warning: 'raspi-config nonint do_overlayfs 1' did not complete successfully."
+    echo "You can enable it interactively with: sudo raspi-config -> Performance Options -> Overlay File System."
+  fi
+else
+  echo "raspi-config not found. Please install/enable Overlay FS manually:"
+  echo "  sudo apt update && sudo apt install raspi-config"
+  echo "Then run: sudo raspi-config -> Performance Options -> Overlay File System"
+fi
+
+echo "All done. A reboot is recommended to apply changes."
+echo "Run: sudo reboot"
