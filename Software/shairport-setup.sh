@@ -458,25 +458,5 @@ EOF
 systemctl daemon-reload
 systemctl enable shairport-custom.service
 systemctl start shairport-custom.service
-
-# Enable Overlay File System via raspi-config (Bookworm)
-# raspi-config nonint supports overlayfs; this will set up RO root + writable overlay for /etc
-if command -v raspi-config >/dev/null 2>&1; then
-  echo "Enabling Overlay File System via raspi-config..."
-  # In recent Raspberry Pi OS, the non-interactive command is:
-  #   raspi-config nonint do_overlayfs 1
-  # 1 = enable, 0 = disable
-  if raspi-config nonint do_overlayfs 1; then
-    echo "Overlay File System enabled."
-  else
-    echo "Warning: 'raspi-config nonint do_overlayfs 1' did not complete successfully."
-    echo "You can enable it interactively with: sudo raspi-config -> Performance Options -> Overlay File System."
-  fi
-else
-  echo "raspi-config not found. Please install/enable Overlay FS manually:"
-  echo "  sudo apt update && sudo apt install raspi-config"
-  echo "Then run: sudo raspi-config -> Performance Options -> Overlay File System"
-fi
-
-echo "All done. A reboot is recommended to apply changes."
-echo "Run: sudo reboot"
+echo "A reboot is recommended to apply changes."
+echo "Run: sudo reboot now"
