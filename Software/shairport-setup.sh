@@ -202,8 +202,7 @@ static ssize_t display_text(int fd, const char *str, size_t n) {
     if (n > MAX_N) n = MAX_N;
 
     uint16_t chars[MAX_N];
-
-    // Reverse order is correct for your shift-register wiring.
+    
     for (ssize_t i = (ssize_t)n - 1; i >= 0; i--) {
         chars[n - 1 - i] = pattern(str[i]);
     }
