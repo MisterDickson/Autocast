@@ -34,3 +34,8 @@ DAC_EVT/external_components.bak
 Display/Display.kicad_prl
 DAC_EVT/~DAC_EVT.kicad_pcb.lck
 DAC_EVT/~DAC_EVT.kicad_sch.lck
+Lever_EVT/fp-info-cache
+Lever_EVT/fp-lib-table
+/Lever_EVT/Lever_EVT-backups
+Lever_EVT/Lever_EVT.kicad_prl
+Lever_EVT/sym-lib-table
