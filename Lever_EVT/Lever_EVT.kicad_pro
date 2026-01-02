@@ -504,7 +504,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Lever_EVT.step",
       "svg": "",
       "vrml": ""
     },
