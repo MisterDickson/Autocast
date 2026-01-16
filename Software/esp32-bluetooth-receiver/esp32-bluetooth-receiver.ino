@@ -1,92 +1,217 @@
+#include <SPI.h>
+
 #include "BluetoothA2DPSink.h"
+
+#define CS_PIN 5
 
 BluetoothA2DPSink a2dp_sink;
 bool isConnected = false;
 
 struct TrackInfo {
-    String title = "";
-    String artist = "";
+  String title = "";
+  String artist = "";
 } currentTrack;
 
+const uint16_t character_patterns[] = {
+  0b0000000000000000, /* (space) */
+  0b0000000100001001, /* ! */
+  0b0000000000011000, /* " */
+  0b0101010010011001, /* # */
+  0b0101010010110011, /* $ */
+  0b0001111011010111, /* % */
+  0b0111100000110100, /* & */
+  0b0000000000010000, /* ' */
+  0b0000100001000000, /* ( */
+  0b0000001000000100, /* ) */
+  0b0001111011010100, /* * */
+  0b0001010010010000, /* + */
+  0b0000001000000000, /* , */
+  0b0001000010000000, /* - */
+  0b0000000100000000, /* . */
+  0b0000001001000000, /* / */
+  0b0110001001101011, /* 0 */
+  0b0000000001001001, /* 1 */
+  0b0111000010101000, /* 2 */
+  0b0100000010101001, /* 3 */
+  0b0001000010001011, /* 4 */
+  0b0101100000100010, /* 5 */
+  0b0111000010100011, /* 6 */
+  0b0000000000101001, /* 7 */
+  0b0111000010101011, /* 8 */
+  0b0101000010101011, /* 9 */
+  0b0000010000010000, /* : */
+  0b0000001000010000, /* ; */
+  0b0001100001000000, /* < */
+  0b0101000010000000, /* = */
+  0b0000001010000100, /* > */
+  0b0000010110101000, /* ? */
+  0b0110000010111010, /* @ */
+  0b0011000010101011, /* A */
+  0b0100010010111001, /* B */
+  0b0110000000100010, /* C */
+  0b0100010000111001, /* D */
+  0b0111000000100010, /* E */
+  0b0011000000100010, /* F */
+  0b0110000010100011, /* G */
+  0b0011000010001011, /* H */
+  0b0100010000110000, /* I */
+  0b0110000000001001, /* J */
+  0b0011100001000010, /* K */
+  0b0110000000000010, /* L */
+  0b0010000001001111, /* M */
+  0b0010100000001111, /* N */
+  0b0110000000101011, /* O */
+  0b0011000010101010, /* P */
+  0b0110100000101011, /* Q */
+  0b0011100010101010, /* R */
+  0b0101000010100011, /* S */
+  0b0000010000110000, /* T */
+  0b0110000000001011, /* U */
+  0b0010001001000010, /* V */
+  0b0010101000001011, /* W */
+  0b0000101001000100, /* X */
+  0b0101000010001011, /* Y */
+  0b0100001001100000, /* Z */
+  0b0110000000100010, /* [ */
+  0b0000100000000100, /* \ */
+  0b0100000000101001, /* ] */
+  0b0000101000000000, /* ^ */
+  0b0100000000000000, /* _ */
+  0b0000000000000100, /* ` */
+  0b0111010000000000, /* a */
+  0b0111100000000010, /* b */
+  0b0111000010000000, /* c */
+  0b0100001010001001, /* d */
+  0b0111001000000000, /* e */
+  0b0001010011000000, /* f */
+  0b0100000011001001, /* g */
+  0b0011010000000010, /* h */
+  0b0000010000000000, /* i */
+  0b0010001000010000, /* j */
+  0b0000110001010000, /* k */
+  0b0010000000000010, /* l */
+  0b0011010010000001, /* m */
+  0b0011010000000000, /* n */
+  0b0111000010000001, /* o */
+  0b0011000000000110, /* p */
+  0b0000000011001001, /* q */
+  0b0011000000000000, /* r */
+  0b0100100010000000, /* s */
+  0b0111000000000010, /* t */
+  0b0110000000000001, /* u */
+  0b0010001000000000, /* v */
+  0b0010101000000001, /* w */
+  0b0000101001000100, /* x */
+  0b0100000010011001, /* y */
+  0b0101001000000000, /* z */
+  0b0101001000100100, /* { */
+  0b0000010000010000, /* | */
+  0b0100100011100000, /* } */
+  0b0001001011000000, /* ~ */
+  0b0000000000000000, /* (del) */
+};
+
+uint16_t pattern(char c) {
+  if ((unsigned char)c < 32 || (unsigned char)c > 127)
+    return 0;
+
+  return character_patterns[(unsigned char)c - 32];
+}
+
+void display_text(const char *str) {
+  size_t len = strlen(str);
+
+  for (int i = len - 1; i >= 0; i--) {
+    digitalWrite(CS_PIN, LOW);
+    SPI.transfer16(pattern(str[i]));
+    digitalWrite(CS_PIN, HIGH);
+  }
+}
+
+
+
 void avrc_metadata_callback(uint8_t id, const uint8_t *text) {
-    String metadata = String((char*)text);
-    
-    switch (id) {
-        case ESP_AVRC_MD_ATTR_TITLE:
-            currentTrack.title = metadata;
-            break;
-        case ESP_AVRC_MD_ATTR_ARTIST:
-            currentTrack.artist = metadata;
-            break;
-    }
-    
-    Serial.println("\n--- Now Playing ---");
-    Serial.println("Title:  " + currentTrack.title);
-    Serial.println("Artist: " + currentTrack.artist);
-    Serial.println("-------------------\n");
+  String metadata = String((char *)text);
+
+  switch (id) {
+    case ESP_AVRC_MD_ATTR_TITLE:
+      currentTrack.title = metadata;
+      break;
+    case ESP_AVRC_MD_ATTR_ARTIST:
+      currentTrack.artist = metadata;
+      break;
+  }
+
+  display_text(currentTrack.title.c_str());
+  display_text(currentTrack.artist.c_str());
 }
 
 void connection_state_changed(esp_a2d_connection_state_t state, void *ptr) {
-    if (state == ESP_A2D_CONNECTION_STATE_CONNECTED) {
-        Serial.println("Device connected!");
-        isConnected = true;
-    } else if (state == ESP_A2D_CONNECTION_STATE_DISCONNECTED) {
-        Serial.println("Device disconnected!");
-        isConnected = false;
-    }
+  if (state == ESP_A2D_CONNECTION_STATE_CONNECTED) {
+    display_text("Device connected!");
+    isConnected = true;
+  } else if (state == ESP_A2D_CONNECTION_STATE_DISCONNECTED) {
+    display_text("Device disconnected!");
+    isConnected = false;
+  }
 }
 
 void setup() {
-    Serial.begin(115200);
-    a2dp_sink.set_on_connection_state_changed(connection_state_changed);
-    a2dp_sink.set_avrc_metadata_callback(avrc_metadata_callback);
-    a2dp_sink.start("Mazda 323");
-    Serial.println("Ready to connect");
+  pinMode(CS_PIN, OUTPUT);
+  digitalWrite(CS_PIN, HIGH);
+
+  SPI.begin(18, 19, 23, CS_PIN);
+
+  Serial.begin(115200);
+  a2dp_sink.set_on_connection_state_changed(connection_state_changed);
+  a2dp_sink.set_avrc_metadata_callback(avrc_metadata_callback);
+  a2dp_sink.start("Mazda 323");
+  display_text("Ready to connect");
 }
 
 void loop() {
-    if (Serial.available() > 0 && isConnected) {
-        char cmd = Serial.read();
-        
-        switch(cmd) {
-            case 'p':
-                Serial.println("Play");
-                a2dp_sink.play();
-                break;
-                
-            case 's':
-                Serial.println("Pause");
-                a2dp_sink.pause();
-                break;
-                
-            case 'n':
-                Serial.println("Next");
-                a2dp_sink.next();
-                break;
-                
-            case 'b':
-                Serial.println("Previous");
-                a2dp_sink.previous();
-                break;
-                
-            case '+':
-                Serial.println("Volume up");
-                a2dp_sink.set_volume(a2dp_sink.get_volume() + 10);
-                break;
-                
-            case '-':
-                Serial.println("Volume down");
-                a2dp_sink.set_volume(a2dp_sink.get_volume() - 10);
-                break;
-                
-            case '?':
-                Serial.printf("Current volume: %d\n", a2dp_sink.get_volume());
-                break;
-        }
-    } else if (Serial.available() > 0 && !isConnected) {
-        Serial.read(); // Clear buffer
-        Serial.println("No device connected!");
+  if (Serial.available() > 0 && isConnected) {
+    char cmd = Serial.read();
+
+    switch (cmd) {
+      case 'p':
+        display_text("Play");
+        a2dp_sink.play();
+        break;
+
+      case 's':
+        display_text("Pause");
+        a2dp_sink.pause();
+        break;
+
+      case 'n':
+        display_text("Next");
+        a2dp_sink.next();
+        break;
+
+      case 'b':
+        display_text("Previous");
+        a2dp_sink.previous();
+        break;
+
+      case '+':
+        display_text("Volume up");
+        a2dp_sink.set_volume(a2dp_sink.get_volume() + 10);
+        break;
+
+      case '-':
+        display_text("Volume down");
+        a2dp_sink.set_volume(a2dp_sink.get_volume() - 10);
+        break;
+
+      case '?':
+        Serial.printf("Current volume: %d\n", a2dp_sink.get_volume());
+        break;
     }
-    
-    delay(10);
+  } else if (Serial.available() > 0 && !isConnected) {
+    Serial.read();  // Clear buffer
+    display_text("No device connected!");
+  }
+
+  delay(10);
 }
