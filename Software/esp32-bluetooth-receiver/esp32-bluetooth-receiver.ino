@@ -255,41 +255,71 @@ void setup() {
 
 }
 
+enum display_information_t {NOW_PLAYING, VOLUME, PLAYBACK_OVERLAY} display_information = NOW_PLAYING;
+
+String top_display_content;
+String bottom_display_content;
+
+uint16_t overlay_duration_ms = 400;
+unsigned long timestamp = 0;
+bool overlay_on = false;
+
 void loop() {
 
-  update_display(currentTrack.title, currentTrack.artist, 300);
+  switch(display_information) {
+    case NOW_PLAYING:
+    top_display_content = currentTrack.title;
+    bottom_display_content = currentTrack.artist;
+    break;
 
+    case PLAYBACK_OVERLAY:
+    if (overlay_on) {
+      if (millis() - timestamp > overlay_duration_ms) {
+        display_information = NOW_PLAYING;
+      }
+    }
+    else {
+      overlay_on = true;
+      timestamp = millis();
+      top_display_content = "Pause";
+      bottom_display_content = "oder nicht";
+    }
+    break;
+  }
+
+  update_display(top_display_content, bottom_display_content, 300);
+  
+  
+  // handle playback control events
+
+
+  
+  /*
   if (Serial.available() > 0 && isConnected) {
     char cmd = Serial.read();
 
     switch (cmd) {
       case 'p':
-        display_text("Play");
         a2dp_sink.play();
         break;
 
       case 's':
-        display_text("Pause");
         a2dp_sink.pause();
         break;
 
       case 'n':
-        display_text("Next");
         a2dp_sink.next();
         break;
 
       case 'b':
-        display_text("Previous");
         a2dp_sink.previous();
         break;
 
       case '+':
-        display_text("Volume up");
         a2dp_sink.set_volume(a2dp_sink.get_volume() + 10);
         break;
 
       case '-':
-        display_text("Volume down");
         a2dp_sink.set_volume(a2dp_sink.get_volume() - 10);
         break;
 
@@ -299,8 +329,7 @@ void loop() {
     }
   } else if (Serial.available() > 0 && !isConnected) {
     Serial.read();  // Clear buffer
-    display_text("No device connected!");
-  }
+  }*/
 
   delay(10);
 }
