@@ -118,20 +118,98 @@ uint16_t pattern(char c) {
   return character_patterns[(unsigned char)c - 32];
 }
 
-void display_text(const char *str) {
+void display_text(const char* str) {
   size_t len = strlen(str);
-
+  digitalWrite(CS_PIN, LOW);
   for (int i = len - 1; i >= 0; i--) {
-    digitalWrite(CS_PIN, LOW);
+
     SPI.transfer16(pattern(str[i]));
-    digitalWrite(CS_PIN, HIGH);
   }
+  digitalWrite(CS_PIN, HIGH);
+}
+
+void update_display(const String& top_line, const String& bottom_line, uint16_t interval_ms) {
+  // Static variables to maintain state between calls
+  static String prev_top = "";
+  static String prev_bottom = "";
+  static unsigned long last_scroll_time = 0;
+  static uint16_t top_offset = 0;
+  static uint16_t bottom_offset = 0;
+
+  const uint8_t DISPLAY_WIDTH = 14;
+  const uint8_t SEPARATOR_SPACES = 2;
+
+  // Check if content has changed - reset scroll if so
+  if (top_line != prev_top || bottom_line != prev_bottom) {
+    prev_top = top_line;
+    prev_bottom = bottom_line;
+    top_offset = 0;
+    bottom_offset = 0;
+    last_scroll_time = millis();
+  }
+
+  // Helper lambda to prepare a line for display
+  auto prepare_line = [&](const String& line, uint16_t& offset) -> String {
+    String display_text;
+
+    if (line.length() <= DISPLAY_WIDTH) {
+      // Pad with spaces if shorter than display width
+      display_text = line;
+      while (display_text.length() < DISPLAY_WIDTH) {
+        display_text += ' ';
+      }
+    } else {
+      // Create ring buffer: original text + separator + original text
+      String ring_buffer = line;
+      for (uint8_t i = 0; i < SEPARATOR_SPACES; i++) {
+        ring_buffer += ' ';
+      }
+      ring_buffer += line;
+
+      // Extract 14 characters starting from offset
+      for (uint8_t i = 0; i < DISPLAY_WIDTH; i++) {
+        display_text += ring_buffer[(offset + i) % ring_buffer.length()];
+      }
+    }
+
+    return display_text;
+  };
+
+  // Check if it's time to scroll
+  unsigned long current_time = millis();
+  if (current_time - last_scroll_time >= interval_ms) {
+    last_scroll_time = current_time;
+
+    // Advance scroll position for lines longer than display width
+    if (top_line.length() > DISPLAY_WIDTH) {
+      top_offset = (top_offset + 1) % (top_line.length() + SEPARATOR_SPACES);
+    }
+    if (bottom_line.length() > DISPLAY_WIDTH) {
+      bottom_offset = (bottom_offset + 1) % (bottom_line.length() + SEPARATOR_SPACES);
+    }
+  } else {
+    return;
+  }
+
+  // Prepare display strings
+  String top_display = prepare_line(top_line, top_offset);
+  String bottom_display = prepare_line(bottom_line, bottom_offset);
+
+  display_text((top_display + bottom_display).c_str());
+
+  // For debugging via Serial:
+  //Serial.print("Top:    |");
+  //Serial.print(top_display.c_str());
+  //Serial.println("|");
+  //Serial.print("Bottom: |");
+  //Serial.print(bottom_display.c_str());
+  //Serial.println("|");
+  //Serial.println();
 }
 
 
-
-void avrc_metadata_callback(uint8_t id, const uint8_t *text) {
-  String metadata = String((char *)text);
+void avrc_metadata_callback(uint8_t id, const uint8_t* text) {
+  String metadata = String((char*)text);
 
   switch (id) {
     case ESP_AVRC_MD_ATTR_TITLE:
@@ -141,18 +219,23 @@ void avrc_metadata_callback(uint8_t id, const uint8_t *text) {
       currentTrack.artist = metadata;
       break;
   }
-
-  display_text(currentTrack.title.c_str());
-  display_text(currentTrack.artist.c_str());
 }
 
-void connection_state_changed(esp_a2d_connection_state_t state, void *ptr) {
+void connection_state_changed(esp_a2d_connection_state_t state, void* ptr) {
   if (state == ESP_A2D_CONNECTION_STATE_CONNECTED) {
-    display_text("Device connected!");
+
     isConnected = true;
+    // Rarely on iOS 26, as it usually transmits empty strings as metadata instead of nothing.
+    currentTrack.title =  "  Connected";
+    currentTrack.artist = "    Ready";
+                        // 123456789ABCDE centering help
   } else if (state == ESP_A2D_CONNECTION_STATE_DISCONNECTED) {
-    display_text("Device disconnected!");
+
     isConnected = false;
+
+    currentTrack.title =  "   Ready to";
+    currentTrack.artist = "   connect";
+                        // 123456789ABCDE centering help
   }
 }
 
@@ -166,10 +249,16 @@ void setup() {
   a2dp_sink.set_on_connection_state_changed(connection_state_changed);
   a2dp_sink.set_avrc_metadata_callback(avrc_metadata_callback);
   a2dp_sink.start("Mazda 323");
-  display_text("Ready to connect");
+  
+  currentTrack.title =  "   Ready to";
+  currentTrack.artist = "   connect";
+
 }
 
 void loop() {
+
+  update_display(currentTrack.title, currentTrack.artist, 300);
+
   if (Serial.available() > 0 && isConnected) {
     char cmd = Serial.read();
 
