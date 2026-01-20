@@ -221,21 +221,33 @@ void avrc_metadata_callback(uint8_t id, const uint8_t* text) {
   }
 }
 
+enum display_information_t { NOT_CONNECTED,
+                             NOW_PLAYING,
+                             VOLUME,
+                             PLAYBACK_OVERLAY } display_information = NOT_CONNECTED;
+
 void connection_state_changed(esp_a2d_connection_state_t state, void* ptr) {
+
   if (state == ESP_A2D_CONNECTION_STATE_CONNECTED) {
-
-    isConnected = true;
-    // Rarely on iOS 26, as it usually transmits empty strings as metadata instead of nothing.
-    currentTrack.title =  "  Connected";
-    currentTrack.artist = "    Ready";
-                        // 123456789ABCDE centering help
+    display_information = NOW_PLAYING;
   } else if (state == ESP_A2D_CONNECTION_STATE_DISCONNECTED) {
+    display_information = NOT_CONNECTED;
+  }
+}
 
-    isConnected = false;
+void audio_state_changed(esp_a2d_audio_state_t state, void* ptr) {
+  switch (state) {
+    case ESP_A2D_AUDIO_STATE_REMOTE_SUSPEND:
+      display_information = PLAYBACK_OVERLAY;
+      break;
 
-    currentTrack.title =  "   Ready to";
-    currentTrack.artist = "   connect";
-                        // 123456789ABCDE centering help
+    case ESP_A2D_AUDIO_STATE_STOPPED:
+      display_information = PLAYBACK_OVERLAY;
+      break;
+
+    case ESP_A2D_AUDIO_STATE_STARTED:
+      display_information = NOW_PLAYING;
+      break;
   }
 }
 
@@ -248,52 +260,59 @@ void setup() {
   Serial.begin(115200);
   a2dp_sink.set_on_connection_state_changed(connection_state_changed);
   a2dp_sink.set_avrc_metadata_callback(avrc_metadata_callback);
+  a2dp_sink.set_on_audio_state_changed(audio_state_changed);
   a2dp_sink.start("Mazda 323");
-  
-  currentTrack.title =  "   Ready to";
-  currentTrack.artist = "   connect";
-
 }
-
-enum display_information_t {NOW_PLAYING, VOLUME, PLAYBACK_OVERLAY} display_information = NOW_PLAYING;
 
 String top_display_content;
 String bottom_display_content;
 
-uint16_t overlay_duration_ms = 400;
+uint16_t overlay_duration_ms = 3000;
 unsigned long timestamp = 0;
 bool overlay_on = false;
 
 void loop() {
 
-  switch(display_information) {
+  switch (display_information) {
+
+    case NOT_CONNECTED:
+      top_display_content = "   Ready to";
+      bottom_display_content = "   connect";
+      break;
+
     case NOW_PLAYING:
-    top_display_content = currentTrack.title;
-    bottom_display_content = currentTrack.artist;
-    break;
+      top_display_content = currentTrack.title;
+      bottom_display_content = currentTrack.artist;
+
+      if (top_display_content.length() < 1 && bottom_display_content.length() < 1) {
+        top_display_content =    "    Device";
+        bottom_display_content = "   connected";
+      }
+
+      break;
 
     case PLAYBACK_OVERLAY:
-    if (overlay_on) {
-      if (millis() - timestamp > overlay_duration_ms) {
-        display_information = NOW_PLAYING;
+      if (overlay_on) {
+        if (millis() - timestamp > overlay_duration_ms) {
+          overlay_on = false;
+          display_information = NOW_PLAYING;
+        }
+      } else {
+        overlay_on = true;
+        timestamp = millis();
+        top_display_content = "Pause";
+        bottom_display_content = "oder nicht";
       }
-    }
-    else {
-      overlay_on = true;
-      timestamp = millis();
-      top_display_content = "Pause";
-      bottom_display_content = "oder nicht";
-    }
-    break;
+      break;
   }
 
   update_display(top_display_content, bottom_display_content, 300);
-  
-  
+
+
   // handle playback control events
 
 
-  
+
   /*
   if (Serial.available() > 0 && isConnected) {
     char cmd = Serial.read();
