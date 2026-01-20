@@ -5,7 +5,8 @@
 #define CS_PIN 5
 
 BluetoothA2DPSink a2dp_sink;
-bool isConnected = false;
+int last_volume, current_volume;
+
 
 struct TrackInfo {
   String title = "";
@@ -122,7 +123,6 @@ void display_text(const char* str) {
   size_t len = strlen(str);
   digitalWrite(CS_PIN, LOW);
   for (int i = len - 1; i >= 0; i--) {
-
     SPI.transfer16(pattern(str[i]));
   }
   digitalWrite(CS_PIN, HIGH);
@@ -214,17 +214,18 @@ void avrc_metadata_callback(uint8_t id, const uint8_t* text) {
   switch (id) {
     case ESP_AVRC_MD_ATTR_TITLE:
       currentTrack.title = metadata;
+      currentTrack.title.replace(" • Lossless", "");
       break;
     case ESP_AVRC_MD_ATTR_ARTIST:
       currentTrack.artist = metadata;
+      currentTrack.artist.replace(" • Lossless", "");
       break;
   }
 }
 
 enum display_information_t { NOT_CONNECTED,
                              NOW_PLAYING,
-                             VOLUME,
-                             PLAYBACK_OVERLAY } display_information = NOT_CONNECTED;
+                             VOLUME_OVERLAY } display_information = NOT_CONNECTED;
 
 void connection_state_changed(esp_a2d_connection_state_t state, void* ptr) {
 
@@ -237,16 +238,11 @@ void connection_state_changed(esp_a2d_connection_state_t state, void* ptr) {
 
 void audio_state_changed(esp_a2d_audio_state_t state, void* ptr) {
   switch (state) {
-    case ESP_A2D_AUDIO_STATE_REMOTE_SUSPEND:
-      display_information = PLAYBACK_OVERLAY;
-      break;
-
-    case ESP_A2D_AUDIO_STATE_STOPPED:
-      display_information = PLAYBACK_OVERLAY;
-      break;
-
     case ESP_A2D_AUDIO_STATE_STARTED:
       display_information = NOW_PLAYING;
+      break;
+    default:
+      /**/
       break;
   }
 }
@@ -262,19 +258,27 @@ void setup() {
   a2dp_sink.set_avrc_metadata_callback(avrc_metadata_callback);
   a2dp_sink.set_on_audio_state_changed(audio_state_changed);
   a2dp_sink.start("Mazda 323");
+  last_volume = current_volume = a2dp_sink.get_volume();
 }
 
 String top_display_content;
 String bottom_display_content;
 
-uint16_t overlay_duration_ms = 3000;
+uint16_t overlay_duration_ms = 1000;
 unsigned long timestamp = 0;
 bool overlay_on = false;
 
 void loop() {
 
-  switch (display_information) {
+    current_volume = a2dp_sink.get_volume();
 
+    if (current_volume != last_volume) {
+      display_information = VOLUME_OVERLAY;
+      last_volume = current_volume;
+      timestamp = millis();
+    }
+
+  switch (display_information) {
     case NOT_CONNECTED:
       top_display_content = "   Ready to";
       bottom_display_content = "   connect";
@@ -285,13 +289,14 @@ void loop() {
       bottom_display_content = currentTrack.artist;
 
       if (top_display_content.length() < 1 && bottom_display_content.length() < 1) {
-        top_display_content =    "    Device";
+        top_display_content = "    Device";
         bottom_display_content = "   connected";
       }
 
       break;
 
-    case PLAYBACK_OVERLAY:
+
+    case VOLUME_OVERLAY:
       if (overlay_on) {
         if (millis() - timestamp > overlay_duration_ms) {
           overlay_on = false;
@@ -300,9 +305,21 @@ void loop() {
       } else {
         overlay_on = true;
         timestamp = millis();
-        top_display_content = "Pause";
-        bottom_display_content = "oder nicht";
       }
+
+      top_display_content = "Volume";
+
+      bottom_display_content = "[";
+
+      for (int i = 0; i < current_volume; i += 12) {
+        bottom_display_content += "-";
+      }
+
+      for (int i = bottom_display_content.length(); i < 13; i++) {
+        bottom_display_content += " ";
+      }
+
+      bottom_display_content += "]";
       break;
   }
 
