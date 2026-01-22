@@ -291,7 +291,7 @@ void loop() {
 
       bottom_display_content = "[";
 
-      for (int i = 0; i < current_volume; i += 12) {
+      for (int i = 0; i < current_volume; i += 11) {
         bottom_display_content += "-";
       }
 
