@@ -1035,12 +1035,6 @@
 		(uuid "2a83896f-f73e-426a-815f-84d9ff5dd373")
 	)
 	(junction
-		(at 137.16 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c5a26dc-ded9-41cc-b238-07f83fbec0d8")
-	)
-	(junction
 		(at 91.44 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1443,16 +1437,6 @@
 			(type default)
 		)
 		(uuid "7059963a-74c2-47a8-970f-12c30bb2be53")
-	)
-	(wire
-		(pts
-			(xy 137.16 116.84) (xy 137.16 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75570176-5d60-4f63-a7d9-9f415fa3c9ba")
 	)
 	(wire
 		(pts
@@ -1925,6 +1909,17 @@
 			(justify right)
 		)
 		(uuid "26c9818a-a749-49e1-a2be-c215f2137e7d")
+	)
+	(hierarchical_label "I2S_MCLK"
+		(shape input)
+		(at 137.16 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "817456eb-4b0e-4a96-8b24-f0c07d13205b")
 	)
 	(hierarchical_label "I2S_BCLK"
 		(shape input)

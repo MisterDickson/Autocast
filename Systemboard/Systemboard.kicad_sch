@@ -4296,6 +4296,12 @@
 		(uuid "8bac9e24-0f8f-4d09-9cd1-aae4d10ade6e")
 	)
 	(junction
+		(at 138.43 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96494b80-9d67-49e0-ac2c-36493f645ea7")
+	)
+	(junction
 		(at -58.42 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4683,6 +4689,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 101.6) (xy 138.43 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30224045-ce94-42c3-859a-4cb484c810ab")
+	)
+	(wire
+		(pts
 			(xy -62.23 101.6) (xy -53.34 101.6)
 		)
 		(stroke
@@ -4980,6 +4996,16 @@
 			(type default)
 		)
 		(uuid "6c5bd742-c6c9-40b9-b16b-e431a6b6341a")
+	)
+	(wire
+		(pts
+			(xy 138.43 93.98) (xy 138.43 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d76900e-dc9a-497a-8872-e0b4270e0a68")
 	)
 	(wire
 		(pts
@@ -5863,6 +5889,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 101.6) (xy 142.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db18ab8a-5f4a-46d4-a09b-0e4a4a316478")
+	)
+	(wire
+		(pts
 			(xy -53.34 33.02) (xy -45.72 25.4)
 		)
 		(stroke
@@ -5870,6 +5906,16 @@
 			(type default)
 		)
 		(uuid "dbe8cef8-e623-4103-bb01-f71695aaa707")
+	)
+	(wire
+		(pts
+			(xy 152.4 101.6) (xy 149.86 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd4e0845-019b-4e41-8178-6bafb3b62f26")
 	)
 	(wire
 		(pts
@@ -6183,7 +6229,7 @@
 	)
 	(global_label "IO0_BT"
 		(shape input)
-		(at 128.27 101.6 0)
+		(at 138.43 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6193,7 +6239,7 @@
 		)
 		(uuid "196ddfd0-9c59-476f-9902-5ffe7283bc5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.5258 101.6 0)
+			(at 147.7652 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6500,6 +6546,28 @@
 		)
 		(uuid "2122df9f-1da2-436a-bab7-aee3627d0d0f")
 	)
+	(hierarchical_label "I2S_MCLK"
+		(shape input)
+		(at 227.33 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c6bc108-1eb9-4ba4-a1a3-2a3eb17edbfe")
+	)
+	(hierarchical_label "I2S_MCLK"
+		(shape output)
+		(at 152.4 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40fb92bf-4265-4f49-9aae-2e2572e5da8c")
+	)
 	(hierarchical_label "I2S_BCLK"
 		(shape output)
 		(at 128.27 147.32 0)
@@ -6510,6 +6578,17 @@
 			(justify left)
 		)
 		(uuid "79342329-0d7b-4b84-ac33-100b98f0db05")
+	)
+	(hierarchical_label "I2S_SDATA"
+		(shape input)
+		(at 227.33 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d002457-e5a0-433b-bd08-f7c0e6d1118f")
 	)
 	(hierarchical_label "I2S_SDATA"
 		(shape output)
@@ -6544,6 +6623,17 @@
 		)
 		(uuid "ceba4374-820c-49be-b4b3-c911319413ba")
 	)
+	(hierarchical_label "I2S_BCLK"
+		(shape input)
+		(at 227.33 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e510a299-0761-4d27-9945-c5af9ab4d28c")
+	)
 	(hierarchical_label "USB_SHUNT_SCL"
 		(shape input)
 		(at 227.33 35.56 180)
@@ -6565,6 +6655,17 @@
 			(justify left)
 		)
 		(uuid "f2feba27-4bcb-4253-b94b-b8ac1e0507d7")
+	)
+	(hierarchical_label "I2S_LRCLK"
+		(shape input)
+		(at 227.33 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb4b36d7-9083-4f13-bca1-9edcd30eb9bf")
 	)
 	(symbol
 		(lib_id "mypower:GND")
@@ -7096,6 +7197,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 146.05 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ef8020e-bd5a-4e8a-8eaa-da9ff48c041a")
+		(property "Reference" "R103"
+			(at 146.05 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 146.05 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 146.05 99.822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part #" "P47DCCT-ND"
+			(at 146.05 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "419e5d28-9a8d-4cd4-9111-e62d47b375a4")
+		)
+		(pin "2"
+			(uuid "1ad6ea59-e9a6-4413-8b9f-98a13d29e5ff")
+		)
+		(instances
+			(project "Systemboard"
+				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c"
+					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 36.83 29.21 0)
 		(mirror y)
@@ -7450,7 +7626,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 75.438 31.75 90)
 			(effects
 				(font
@@ -7474,6 +7650,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKey Part #" "1276-3431-1-ND"
+			(at 73.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8100,7 +8285,7 @@
 				)
 			)
 		)
-		(property "Value" "100E"
+		(property "Value" "47"
 			(at 85.09 39.37 90)
 			(effects
 				(font
@@ -8108,7 +8293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 85.09 35.052 90)
 			(effects
 				(font
@@ -8132,6 +8317,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKey Part #" "P47DCCT-ND"
+			(at 85.09 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8751,10 +8945,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e4c9b8d5-17f4-4120-8478-2a9b247aa757")
 		(property "Reference" "U101"
-			(at 115.1733 93.98 0)
+			(at 114.046 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8763,7 +8956,7 @@
 			)
 		)
 		(property "Value" "ESP32-WROOM-32E"
-			(at 115.1733 96.52 0)
+			(at 91.186 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9067,7 +9260,7 @@
 		)
 	)
 	(sheet
-		(at 160.274 99.822)
+		(at 227.33 101.854)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9083,7 +9276,7 @@
 		)
 		(uuid "06f232f5-45f9-4758-9c42-58a0b8b2f72a")
 		(property "Sheetname" "I2S DAC"
-			(at 160.274 99.1104 0)
+			(at 227.33 101.1424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9092,7 +9285,7 @@
 			)
 		)
 		(property "Sheetfile" "I2S_DAC.kicad_sch"
-			(at 160.274 125.8066 0)
+			(at 227.33 127.8386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9101,7 +9294,7 @@
 			)
 		)
 		(pin "+5V" input
-			(at 160.274 102.362 180)
+			(at 227.33 104.394 180)
 			(uuid "c2425f1d-e476-442e-aa0c-abfb755532ff")
 			(effects
 				(font
@@ -9111,7 +9304,7 @@
 			)
 		)
 		(pin "I2S_BCLK" input
-			(at 160.274 122.682 180)
+			(at 227.33 124.46 180)
 			(uuid "ff378078-5e2a-4855-8294-8bf812e67c9d")
 			(effects
 				(font
@@ -9121,7 +9314,7 @@
 			)
 		)
 		(pin "I2S_LRCLK" input
-			(at 160.274 115.57 180)
+			(at 227.33 116.84 180)
 			(uuid "23de703a-f739-4768-9b7b-79794febe067")
 			(effects
 				(font
@@ -9131,7 +9324,7 @@
 			)
 		)
 		(pin "I2S_SDATA" input
-			(at 160.274 119.38 180)
+			(at 227.33 120.65 180)
 			(uuid "299f5944-2d48-4f44-b554-b84f003ef5a6")
 			(effects
 				(font
@@ -9141,7 +9334,7 @@
 			)
 		)
 		(pin "DAC_OUT_L" output
-			(at 185.674 106.68 0)
+			(at 252.73 108.712 0)
 			(uuid "9964a7ec-0eb0-40c2-97ce-b6fb7536c235")
 			(effects
 				(font
@@ -9151,13 +9344,23 @@
 			)
 		)
 		(pin "DAC_OUT_R" output
-			(at 185.674 110.49 0)
+			(at 252.73 112.522 0)
 			(uuid "c02e2986-ddee-4187-a79b-5b3dd4271e17")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "I2S_MCLK" input
+			(at 227.33 113.03 180)
+			(uuid "ac73a590-8ccb-4cd1-a81d-f5f80d14f509")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
