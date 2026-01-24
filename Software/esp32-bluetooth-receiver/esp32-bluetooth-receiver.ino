@@ -112,6 +112,19 @@ const uint16_t character_patterns[] = {
   0b0000000000000000, /* (del) */
 };
 
+const String ascii_ify(const String unicode_str) {
+  String ret = unicode_str;
+  ret.replace("ä", "ae");
+  ret.replace("ö", "oe");
+  ret.replace("ü", "ue");
+  ret.replace("Ä", "AE");
+  ret.replace("Ö", "OE");
+  ret.replace("Ü", "UE");
+  ret.replace("ß", "sz");
+  ret.replace("ẞ", "SZ");
+  return ret;
+}
+
 uint16_t pattern(char c) {
   if ((unsigned char)c < 32 || (unsigned char)c > 127)
     return 0;
@@ -182,7 +195,6 @@ void update_display(const String& top_line, const String& bottom_line, uint16_t 
     }
   }
   
-  // Always prepare and display (removed the early return)
   String top_display = prepare_line(top_line, top_offset);
   String bottom_display = prepare_line(bottom_line, bottom_offset);
   display_text((top_display + bottom_display).c_str());
@@ -193,12 +205,12 @@ void avrc_metadata_callback(uint8_t id, const uint8_t* text) {
 
   switch (id) {
     case ESP_AVRC_MD_ATTR_TITLE:
-      currentTrack.title = metadata;
-      currentTrack.title.replace(" • Lossless", "");
+      metadata.replace(" • Lossless", "");
+      currentTrack.title = ascii_ify(metadata);
       break;
     case ESP_AVRC_MD_ATTR_ARTIST:
-      currentTrack.artist = metadata;
-      currentTrack.artist.replace(" • Lossless", "");
+      metadata.replace(" • Lossless", "");
+      currentTrack.artist = ascii_ify(metadata);
       break;
   }
 }
