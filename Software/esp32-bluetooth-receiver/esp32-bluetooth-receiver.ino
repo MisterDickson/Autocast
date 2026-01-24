@@ -397,6 +397,15 @@ void audio_state_changed(esp_a2d_audio_state_t state, void* ptr) {
 }
 
 void setup() {
+  i2s_pin_config_t pin_config = {
+    .bck_io_num = 26,    // Bit clock
+    .ws_io_num = 25,     // Word select (LR clock)
+    .data_out_num = 22,  // Data out
+    .data_in_num = I2S_PIN_NO_CHANGE
+  };
+
+  a2dp_sink.set_pin_config(pin_config);
+
   pinMode(CS_PIN, OUTPUT);
   digitalWrite(CS_PIN, HIGH);
 
