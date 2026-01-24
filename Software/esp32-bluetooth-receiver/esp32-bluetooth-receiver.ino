@@ -114,6 +114,8 @@ const uint16_t character_patterns[] = {
 
 const String ascii_ify(const String unicode_str) {
   String ret = unicode_str;
+
+  // German
   ret.replace("ä", "ae");
   ret.replace("ö", "oe");
   ret.replace("ü", "ue");
@@ -122,12 +124,167 @@ const String ascii_ify(const String unicode_str) {
   ret.replace("Ü", "UE");
   ret.replace("ß", "sz");
   ret.replace("ẞ", "SZ");
+
+  // Accented vowels (Western / Central Europe)
+  ret.replace("à", "a");
+  ret.replace("á", "a");
+  ret.replace("â", "a");
+  ret.replace("ã", "a");
+  ret.replace("å", "a");
+  ret.replace("À", "A");
+  ret.replace("Á", "A");
+  ret.replace("Â", "A");
+  ret.replace("Ã", "A");
+  ret.replace("Å", "A");
+
+  ret.replace("è", "e");
+  ret.replace("é", "e");
+  ret.replace("ê", "e");
+  ret.replace("ë", "e");
+  ret.replace("È", "E");
+  ret.replace("É", "E");
+  ret.replace("Ê", "E");
+  ret.replace("Ë", "E");
+
+  ret.replace("ì", "i");
+  ret.replace("í", "i");
+  ret.replace("î", "i");
+  ret.replace("ï", "i");
+  ret.replace("Ì", "I");
+  ret.replace("Í", "I");
+  ret.replace("Î", "I");
+  ret.replace("Ï", "I");
+
+  ret.replace("ò", "o");
+  ret.replace("ó", "o");
+  ret.replace("ô", "o");
+  ret.replace("õ", "o");
+  ret.replace("Ò", "O");
+  ret.replace("Ó", "O");
+  ret.replace("Ô", "O");
+  ret.replace("Õ", "O");
+
+  ret.replace("ù", "u");
+  ret.replace("ú", "u");
+  ret.replace("û", "u");
+  ret.replace("Ù", "U");
+  ret.replace("Ú", "U");
+  ret.replace("Û", "U");
+
+  // Nordic / French
+  ret.replace("æ", "ae");
+  ret.replace("Æ", "AE");
+  ret.replace("œ", "oe");
+  ret.replace("Œ", "OE");
+  ret.replace("ø", "o");
+  ret.replace("Ø", "O");
+
+  // Slavic / Eastern Europe
+  ret.replace("č", "c");
+  ret.replace("ć", "c");
+  ret.replace("ç", "c");
+  ret.replace("Č", "C");
+  ret.replace("Ć", "C");
+  ret.replace("Ç", "C");
+
+  ret.replace("š", "s");
+  ret.replace("ś", "s");
+  ret.replace("Š", "S");
+  ret.replace("Ś", "S");
+
+  ret.replace("ž", "z");
+  ret.replace("ź", "z");
+  ret.replace("ż", "z");
+  ret.replace("Ž", "Z");
+  ret.replace("Ź", "Z");
+  ret.replace("Ż", "Z");
+
+  ret.replace("ñ", "n");
+  ret.replace("Ñ", "N");
+
+  ret.replace("ý", "y");
+  ret.replace("ÿ", "y");
+  ret.replace("Ý", "Y");
+
+  // Cyrillic
+  ret.replace("А", "A");
+  ret.replace("Б", "B");
+  ret.replace("В", "V");
+  ret.replace("Г", "G");
+  ret.replace("Д", "D");
+  ret.replace("Е", "E");
+  ret.replace("Ё", "Yo");
+  ret.replace("Ж", "Zh");
+  ret.replace("З", "Z");
+  ret.replace("И", "I");
+  ret.replace("Й", "Y");
+  ret.replace("К", "K");
+  ret.replace("Л", "L");
+  ret.replace("М", "M");
+  ret.replace("Н", "N");
+  ret.replace("О", "O");
+  ret.replace("П", "P");
+  ret.replace("Р", "R");
+  ret.replace("С", "S");
+  ret.replace("Т", "T");
+  ret.replace("У", "U");
+  ret.replace("Ф", "F");
+  ret.replace("Х", "Kh");
+  ret.replace("Ц", "Ts");
+  ret.replace("Ч", "Ch");
+  ret.replace("Ш", "Sh");
+  ret.replace("Щ", "Shch");
+  ret.replace("Ы", "Y");
+  ret.replace("Э", "E");
+  ret.replace("Ю", "Yu");
+  ret.replace("Я", "Ya");
+
+  ret.replace("а", "a");
+  ret.replace("б", "b");
+  ret.replace("в", "v");
+  ret.replace("г", "g");
+  ret.replace("д", "d");
+  ret.replace("е", "e");
+  ret.replace("ё", "yo");
+  ret.replace("ж", "zh");
+  ret.replace("з", "z");
+  ret.replace("и", "i");
+  ret.replace("й", "y");
+  ret.replace("к", "k");
+  ret.replace("л", "l");
+  ret.replace("м", "m");
+  ret.replace("н", "n");
+  ret.replace("о", "o");
+  ret.replace("п", "p");
+  ret.replace("р", "r");
+  ret.replace("с", "s");
+  ret.replace("т", "t");
+  ret.replace("у", "u");
+  ret.replace("ф", "f");
+  ret.replace("х", "kh");
+  ret.replace("ц", "ts");
+  ret.replace("ч", "ch");
+  ret.replace("ш", "sh");
+  ret.replace("щ", "shch");
+  ret.replace("ы", "y");
+  ret.replace("э", "e");
+  ret.replace("ю", "yu");
+  ret.replace("я", "ya");
+
+  // Ligatures / oddballs
+  ret.replace("ð", "d");
+  ret.replace("Ð", "D");
+  ret.replace("þ", "th");
+  ret.replace("Þ", "TH");
+  ret.replace("ł", "l");
+  ret.replace("Ł", "L");
+
   return ret;
 }
 
 uint16_t pattern(char c) {
   if ((unsigned char)c < 32 || (unsigned char)c > 127)
-    return 0;
+    return 0b0001000010000000; /* - */
 
   return character_patterns[(unsigned char)c - 32];
 }
@@ -141,7 +298,7 @@ void display_text(const char* str) {
   digitalWrite(CS_PIN, HIGH);
 }
 
-void update_display(const String& top_line, const String& bottom_line, uint16_t interval_ms) { 
+void update_display(const String& top_line, const String& bottom_line, uint16_t interval_ms) {
   static String prev_top = "";
   static String prev_bottom = "";
   static unsigned long last_scroll_time = 0;
@@ -149,7 +306,7 @@ void update_display(const String& top_line, const String& bottom_line, uint16_t 
   static uint16_t bottom_offset = 0;
   const uint8_t DISPLAY_WIDTH = 14;
   const uint8_t SEPARATOR_SPACES = 2;
-  
+
   // Check if content has changed - reset scroll if so
   if (top_line != prev_top || bottom_line != prev_bottom) {
     prev_top = top_line;
@@ -158,7 +315,7 @@ void update_display(const String& top_line, const String& bottom_line, uint16_t 
     bottom_offset = 0;
     last_scroll_time = millis();
   }
-  
+
   // Helper lambda to prepare a line for display
   auto prepare_line = [&](const String& line, uint16_t& offset) -> String {
     String display_text;
@@ -173,19 +330,19 @@ void update_display(const String& top_line, const String& bottom_line, uint16_t 
         ring_buffer += ' ';
       }
       ring_buffer += line;
-      
+
       for (uint8_t i = 0; i < DISPLAY_WIDTH; i++) {
         display_text += ring_buffer[(offset + i) % ring_buffer.length()];
       }
     }
     return display_text;
   };
-  
+
   // Check if it's time to scroll
   unsigned long current_time = millis();
   if (current_time - last_scroll_time >= interval_ms) {
     last_scroll_time = current_time;
-    
+
     // Advance scroll position for lines longer than display width
     if (top_line.length() > DISPLAY_WIDTH) {
       top_offset = (top_offset + 1) % (top_line.length() + SEPARATOR_SPACES);
@@ -194,7 +351,7 @@ void update_display(const String& top_line, const String& bottom_line, uint16_t 
       bottom_offset = (bottom_offset + 1) % (bottom_line.length() + SEPARATOR_SPACES);
     }
   }
-  
+
   String top_display = prepare_line(top_line, top_offset);
   String bottom_display = prepare_line(bottom_line, bottom_offset);
   display_text((top_display + bottom_display).c_str());
@@ -262,13 +419,13 @@ bool overlay_on = false;
 
 void loop() {
 
-    current_volume = a2dp_sink.get_volume();
+  current_volume = a2dp_sink.get_volume();
 
-    if (current_volume != last_volume) {
-      display_information = VOLUME_OVERLAY;
-      last_volume = current_volume;
-      timestamp = millis();
-    }
+  if (current_volume != last_volume) {
+    display_information = VOLUME_OVERLAY;
+    last_volume = current_volume;
+    timestamp = millis();
+  }
 
   switch (display_information) {
     case NOT_CONNECTED:
