@@ -7705,7 +7705,7 @@
 				)
 			)
 		)
-		(property "Value" "TL2230EEF100"
+		(property "Value" "TL2285OA"
 			(at 30.48 203.2 0)
 			(effects
 				(font
@@ -7792,6 +7792,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part #" "EG1871-ND"
+			(at 30.48 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "34334af4-04d5-48d5-a40e-f7294c29718a")
 		)
@@ -7836,7 +7845,7 @@
 				)
 			)
 		)
-		(property "Value" "TL2230EEF100"
+		(property "Value" "TL2285OA"
 			(at 30.48 143.51 0)
 			(effects
 				(font
@@ -7920,6 +7929,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part #" "EG1871-ND"
+			(at 30.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8165,7 +8183,7 @@
 				)
 			)
 		)
-		(property "Value" "TL2230EEF100"
+		(property "Value" "TL2285OA"
 			(at 30.226 156.718 0)
 			(effects
 				(font
@@ -8249,6 +8267,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part #" "EG1871-ND"
+			(at 30.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8901,7 +8928,7 @@
 				)
 			)
 		)
-		(property "Value" "TL2230EEF100"
+		(property "Value" "TL2285OA"
 			(at 30.48 124.46 0)
 			(effects
 				(font
@@ -8988,6 +9015,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part #" "EG1871-ND"
+			(at 30.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "1d2d9c0b-91f7-47af-826f-e272c5037a3f")
 		)
@@ -9032,7 +9068,7 @@
 				)
 			)
 		)
-		(property "Value" "TL2230EEF100"
+		(property "Value" "TL2285OA"
 			(at 30.48 184.15 0)
 			(effects
 				(font
@@ -9116,6 +9152,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part #" "EG1871-ND"
+			(at 30.48 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
