@@ -621,6 +621,10 @@
     [
       "60a7bbcf-cdb5-42ef-b224-050c5add5d3c",
       "Shunt"
+    ],
+    [
+      "14c4f1a7-1394-4755-ae7a-a4c46109c072",
+      "Debouncer"
     ]
   ],
   "text_variables": {}
