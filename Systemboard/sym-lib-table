@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "External_Parts")(type "KiCad")(uri "${KIPRJMOD}/External_Parts.kicad_sym")(options "")(descr ""))
+)

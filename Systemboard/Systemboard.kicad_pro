@@ -625,6 +625,10 @@
     [
       "14c4f1a7-1394-4755-ae7a-a4c46109c072",
       "Debouncer"
+    ],
+    [
+      "dab3303c-12bb-4f79-a24a-d2ecbc0ee2a1",
+      "Amplifier"
     ]
   ],
   "text_variables": {}
