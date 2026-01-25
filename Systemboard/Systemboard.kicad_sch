@@ -3503,9 +3503,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "check whether the headset uses NC or NO switches and reserve that switches for them"
+	(text "check whether the headset uses NC or NO switches and reserve that switches for them\n\namplifier\n\npower supply\nhigh-current 5V, +/-12V maybe, high-current dimmable 2V-3V3\n\nreed switches"
 		(exclude_from_sim no)
-		(at 67.564 18.034 0)
+		(at 114.3 65.278 0)
 		(effects
 			(font
 				(size 1.27 1.27)
