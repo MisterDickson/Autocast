@@ -7434,7 +7434,7 @@
 	)
 	(sheet
 		(at 228.854 127)
-		(size 25.4 25.908)
+		(size 34.036 25.908)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7464,6 +7464,86 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Amplifier_Out_PL" output
+			(at 262.89 133.35 0)
+			(uuid "b98d95c0-f1c5-478c-aa85-4156d67c0ab8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Amplifier_Out_PR" output
+			(at 262.89 143.51 0)
+			(uuid "6374b746-967d-4019-9f23-d41b63c9faf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Amplifier_Out_NR" output
+			(at 262.89 147.32 0)
+			(uuid "c586b402-3da5-4ae3-a1b6-813c05db945c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Amplifier_Out_NL" output
+			(at 262.89 137.16 0)
+			(uuid "2dfb6f82-90f6-44d9-b814-354524b691b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Amplifier_In_R" input
+			(at 228.854 142.24 180)
+			(uuid "293a7b7c-a8c5-4732-8baf-15435c7b44a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+12V" input
+			(at 228.854 129.54 180)
+			(uuid "156923a7-b31e-4b18-ab16-2693d36b82b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Mute" input
+			(at 228.854 146.05 180)
+			(uuid "279363cd-46a3-4021-b44a-74dd0c8ba557")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Amplifier_In_L" input
+			(at 228.854 138.43 180)
+			(uuid "a9531494-f2a4-474f-9448-ef8c76317091")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
