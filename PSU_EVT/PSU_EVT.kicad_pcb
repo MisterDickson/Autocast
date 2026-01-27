@@ -6635,7 +6635,7 @@
 			(at 0 0 270)
 			(size 1.7 1.7)
 			(property pad_prop_heatsink)
-			(layers "F.Cu" "F.Mask")
+			(layers "F.Cu")
 			(net 1 "GND")
 			(pinfunction "ExpPAD")
 			(pintype "passive")

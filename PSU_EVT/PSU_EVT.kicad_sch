@@ -9533,7 +9533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi Part #" "118-SRP1050WA-680MCT-ND"
+		(property "DigiKey Part #" "118-SRP1050WA-680MCT-ND"
 			(at 127 33.02 90)
 			(effects
 				(font
@@ -9749,6 +9749,15 @@
 			)
 		)
 		(property "Description" "3A step-down switching regulator, Adjustable Output Voltage, 5.5-48V Input Voltage, 850kHz, PowerSO-8"
+			(at 87.63 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part #" "497-10816-1-ND"
 			(at 87.63 38.1 0)
 			(effects
 				(font
