@@ -6895,6 +6895,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part #" "5407-ESP32-WROOM-32E-N16CT-ND"
+			(at 81.28 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "29412ffb-bfca-4a97-98ca-bac4b6a4a115")
 		)
