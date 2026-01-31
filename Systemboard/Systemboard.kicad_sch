@@ -5566,7 +5566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 114.3 104.902 90)
 			(effects
 				(font
@@ -5592,7 +5592,16 @@
 				)
 			)
 		)
-		(property "DigiKey Part #" "P47DCCT-ND"
+		(property "DigiKey Part #" "311-47.0HRCT-ND"
+			(at 114.3 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23182"
 			(at 114.3 106.68 90)
 			(effects
 				(font
@@ -5811,6 +5820,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C23630"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed47a094-0a0a-453b-81a0-39e392f92135")
 		)
@@ -5945,6 +5963,15 @@
 			)
 		)
 		(property "DigiKey Part #" "1276-3431-1-ND"
+			(at 160.02 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
 			(at 160.02 31.75 0)
 			(effects
 				(font
@@ -6258,7 +6285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 171.45 35.052 90)
 			(effects
 				(font
@@ -6284,7 +6311,16 @@
 				)
 			)
 		)
-		(property "DigiKey Part #" "P47DCCT-ND"
+		(property "DigiKey Part #" "311-47.0HRCT-ND"
+			(at 171.45 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23182"
 			(at 171.45 36.83 90)
 			(effects
 				(font
@@ -6427,6 +6463,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 116.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6644,6 +6689,15 @@
 			)
 		)
 		(property "DigiKey Part #" "900-2004850460CT-ND"
+			(at 26.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 26.67 100.33 0)
 			(effects
 				(font
@@ -6896,6 +6950,15 @@
 			)
 		)
 		(property "DigiKey Part #" "5407-ESP32-WROOM-32E-N16CT-ND"
+			(at 81.28 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 81.28 137.16 0)
 			(effects
 				(font

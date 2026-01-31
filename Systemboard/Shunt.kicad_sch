@@ -1350,6 +1350,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e82e6bcc-b150-4915-b40a-911b36d32a30")
 		)
@@ -1493,6 +1502,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25744"
+			(at 172.72 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1fd710f7-fac7-45e8-be6f-e9b785cf3941")
 		)
@@ -1564,6 +1582,15 @@
 			)
 		)
 		(property "DigiKey Part #" "INA226AIDGSR"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 152.4 99.06 0)
 			(effects
 				(font
@@ -1739,6 +1766,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25744"
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d072c2e-e71b-4ba6-9b0b-ce7c11d0936f")
 		)
@@ -1884,6 +1920,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C15850"
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d777e415-8e6c-4ac4-93d3-082dce10eca9")
 		)
@@ -2020,6 +2065,15 @@
 			)
 		)
 		(property "DigiKey Part #" "296-TLV77333PDBVRCT-ND"
+			(at 107.95 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 107.95 73.66 0)
 			(effects
 				(font
@@ -2248,6 +2302,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C28233"
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e2caa116-dbaa-4abc-8d06-b4b645fbef80")
 		)
@@ -2319,6 +2382,15 @@
 			)
 		)
 		(property "DigiKey Part #" "1276-2872-1-ND"
+			(at 123.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15850"
 			(at 123.19 77.47 0)
 			(effects
 				(font
