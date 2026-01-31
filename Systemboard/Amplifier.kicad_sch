@@ -4336,7 +4336,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C4184"
 			(at 59.69 110.49 90)
 			(effects
 				(font
@@ -8346,7 +8346,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C4184"
 			(at 156.21 148.59 0)
 			(effects
 				(font
