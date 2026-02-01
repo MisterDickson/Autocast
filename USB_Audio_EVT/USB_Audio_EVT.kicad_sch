@@ -11679,16 +11679,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 34.29 30.48 180)
+		(at 34.29 27.94 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d78e1e96-a90f-4bc8-b5d5-19118f695562")
 		(property "Reference" "J102"
-			(at 34.29 21.59 0)
+			(at 34.29 22.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11696,7 +11696,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 34.29 24.13 0)
+			(at 34.29 24.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11704,7 +11704,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 34.29 30.48 0)
+			(at 34.29 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11713,7 +11713,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 30.48 0)
+			(at 34.29 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11722,7 +11722,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 34.29 30.48 0)
+			(at 34.29 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
