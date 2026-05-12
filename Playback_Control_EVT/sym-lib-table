@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Playback_Control_EVT")(type "KiCad")(uri "${KIPRJMOD}/Playback_Control_EVT.kicad_sym")(options "")(descr ""))
-)

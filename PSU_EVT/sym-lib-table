@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "PSU_EVT")(type "KiCad")(uri "${KIPRJMOD}/PSU_EVT.kicad_sym")(options "")(descr ""))
-)
