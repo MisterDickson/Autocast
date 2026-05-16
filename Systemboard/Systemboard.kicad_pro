@@ -752,7 +752,7 @@
         "uuid": "2f4830bd-672b-4d5b-b8d7-989ae91c893c"
       }
     ],
-    "used_designators": "#PWR124",
+    "used_designators": "#PWR11-12,#PWR124-127,#PWR152-153,R134-135,Q1-2,U3",
     "variants": []
   },
   "sheets": [
@@ -779,6 +779,10 @@
     [
       "f6c0b15b-ce21-45e8-9f90-688e836c0cf2",
       "USB DAC"
+    ],
+    [
+      "089b12b0-dba4-41b3-9eb6-8cab80322476",
+      "Amplifier Input Mux"
     ]
   ],
   "text_variables": {},
