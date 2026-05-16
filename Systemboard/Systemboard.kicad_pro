@@ -752,7 +752,7 @@
         "uuid": "2f4830bd-672b-4d5b-b8d7-989ae91c893c"
       }
     ],
-    "used_designators": "#PWR11-12,#PWR124-127,#PWR152-153,R134-135,Q1-2,U3",
+    "used_designators": "L4,D1,#PWR13,#PWR121,#PWR154-156,Q3,C24-25,C216-217,R136,U4-6",
     "variants": []
   },
   "sheets": [
@@ -783,6 +783,10 @@
     [
       "089b12b0-dba4-41b3-9eb6-8cab80322476",
       "Amplifier Input Mux"
+    ],
+    [
+      "9fbee41b-ad3d-4da0-bb94-6595ace1464a",
+      "Power Supply"
     ]
   ],
   "text_variables": {},
