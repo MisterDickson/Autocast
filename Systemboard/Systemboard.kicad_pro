@@ -752,7 +752,7 @@
         "uuid": "2f4830bd-672b-4d5b-b8d7-989ae91c893c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "Y101,U103-104,S101-105,R114-116,R118-127,#PWR124-143,#PWR145-149,C107-118,J101-103",
     "variants": []
   },
   "sheets": [
@@ -775,6 +775,10 @@
     [
       "dab3303c-12bb-4f79-a24a-d2ecbc0ee2a1",
       "Amplifier"
+    ],
+    [
+      "f6c0b15b-ce21-45e8-9f90-688e836c0cf2",
+      "USB DAC"
     ]
   ],
   "text_variables": {},
