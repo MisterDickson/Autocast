@@ -3773,7 +3773,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 71.12) (xy 226.06 73.66)
+			(xy 223.52 59.182) (xy 223.52 61.722)
 		)
 		(stroke
 			(width 0)
@@ -4233,7 +4233,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 73.66) (xy 228.6 73.66)
+			(xy 223.52 61.722) (xy 226.06 61.722)
 		)
 		(stroke
 			(width 0)
@@ -5378,7 +5378,7 @@
 	)
 	(hierarchical_label "I2S_MCLK"
 		(shape input)
-		(at 228.6 82.296 180)
+		(at 226.06 70.358 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5422,7 +5422,7 @@
 	)
 	(hierarchical_label "I2S_SDATA"
 		(shape input)
-		(at 228.6 89.916 180)
+		(at 226.06 77.978 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5466,7 +5466,7 @@
 	)
 	(hierarchical_label "I2S_BCLK"
 		(shape input)
-		(at 228.6 93.726 180)
+		(at 226.06 81.788 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5488,7 +5488,7 @@
 	)
 	(hierarchical_label "I2S_LRCLK"
 		(shape input)
-		(at 228.6 86.106 180)
+		(at 226.06 74.168 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6094,7 +6094,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 226.06 71.12 0)
+		(at 223.52 59.182 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6104,7 +6104,7 @@
 		(dnp no)
 		(uuid "5289be3e-0fe3-43b0-a063-1bf0e485359d")
 		(property "Reference" "#PWR0121"
-			(at 226.06 74.93 0)
+			(at 223.52 62.992 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6115,7 +6115,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 223.012 70.104 0)
+			(at 220.472 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6125,7 +6125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 71.12 0)
+			(at 223.52 59.182 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6136,7 +6136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 71.12 0)
+			(at 223.52 59.182 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6147,7 +6147,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 226.06 71.12 0)
+			(at 223.52 59.182 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7593,7 +7593,7 @@
 		)
 	)
 	(sheet
-		(at 228.6 71.12)
+		(at 226.06 59.182)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7609,7 +7609,7 @@
 		)
 		(uuid "06f232f5-45f9-4758-9c42-58a0b8b2f72a")
 		(property "Sheetname" "I2S DAC"
-			(at 228.6 70.4084 0)
+			(at 226.06 58.4704 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7620,7 +7620,7 @@
 			)
 		)
 		(property "Sheetfile" "I2S_DAC.kicad_sch"
-			(at 228.6 97.1046 0)
+			(at 226.06 85.1666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7631,7 +7631,7 @@
 			)
 		)
 		(pin "+5V" input
-			(at 228.6 73.66 180)
+			(at 226.06 61.722 180)
 			(uuid "c2425f1d-e476-442e-aa0c-abfb755532ff")
 			(effects
 				(font
@@ -7641,7 +7641,7 @@
 			)
 		)
 		(pin "I2S_BCLK" input
-			(at 228.6 93.726 180)
+			(at 226.06 81.788 180)
 			(uuid "ff378078-5e2a-4855-8294-8bf812e67c9d")
 			(effects
 				(font
@@ -7651,7 +7651,7 @@
 			)
 		)
 		(pin "I2S_LRCLK" input
-			(at 228.6 86.106 180)
+			(at 226.06 74.168 180)
 			(uuid "23de703a-f739-4768-9b7b-79794febe067")
 			(effects
 				(font
@@ -7661,7 +7661,7 @@
 			)
 		)
 		(pin "I2S_SDATA" input
-			(at 228.6 89.916 180)
+			(at 226.06 77.978 180)
 			(uuid "299f5944-2d48-4f44-b554-b84f003ef5a6")
 			(effects
 				(font
@@ -7671,7 +7671,7 @@
 			)
 		)
 		(pin "DAC_OUT_L" output
-			(at 254 77.978 0)
+			(at 251.46 66.04 0)
 			(uuid "9964a7ec-0eb0-40c2-97ce-b6fb7536c235")
 			(effects
 				(font
@@ -7681,7 +7681,7 @@
 			)
 		)
 		(pin "DAC_OUT_R" output
-			(at 254 81.788 0)
+			(at 251.46 69.85 0)
 			(uuid "c02e2986-ddee-4187-a79b-5b3dd4271e17")
 			(effects
 				(font
@@ -7691,7 +7691,7 @@
 			)
 		)
 		(pin "I2S_MCLK" input
-			(at 228.6 82.296 180)
+			(at 226.06 70.358 180)
 			(uuid "ac73a590-8ccb-4cd1-a81d-f5f80d14f509")
 			(effects
 				(font
@@ -8077,8 +8077,8 @@
 		)
 	)
 	(sheet
-		(at 161.29 82.55)
-		(size 36.83 29.21)
+		(at 161.29 62.23)
+		(size 46.99 53.34)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8093,7 +8093,7 @@
 		)
 		(uuid "f6c0b15b-ce21-45e8-9f90-688e836c0cf2")
 		(property "Sheetname" "USB DAC"
-			(at 161.29 81.8384 0)
+			(at 161.29 61.5184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8104,7 +8104,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_DAC.kicad_sch"
-			(at 161.29 112.3446 0)
+			(at 161.29 116.1546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8112,6 +8112,176 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 161.29 64.77 180)
+			(uuid "aa5ad277-a519-414b-afab-affe07145699")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DAC_EN" input
+			(at 161.29 77.47 180)
+			(uuid "1dadfe46-d9cb-423f-8e12-1e305c8481cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Play{slash}Pause" input
+			(at 161.29 93.98 180)
+			(uuid "10f7633d-dcda-4c00-9c08-e656e747157f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DAC_CC2" input
+			(at 161.29 107.95 180)
+			(uuid "5e0e7886-6be4-454f-9d97-c2b116cf657f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DAC_CABLE_DETECT_A" output
+			(at 161.29 110.49 180)
+			(uuid "9e468908-fc39-46e1-807d-2442e38a61dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{USB_DAC_SSPND}" output
+			(at 161.29 72.39 180)
+			(uuid "8205359a-4a3b-4971-8343-eaa23b8ebe6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DAC_OUT_L" output
+			(at 208.28 91.44 0)
+			(uuid "daf96876-09c8-4eff-9196-b42f7512ada6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DAC_OUT_R" output
+			(at 208.28 95.25 0)
+			(uuid "87107c1f-5b3d-4d3d-b956-73248639bfbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_D+" bidirectional
+			(at 161.29 82.55 180)
+			(uuid "4d2174e0-6981-4264-a540-b60c07899f00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_D-" bidirectional
+			(at 161.29 85.09 180)
+			(uuid "d8e2bc97-63be-4ccc-baa3-003767a7888f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOL-" input
+			(at 161.29 99.06 180)
+			(uuid "cbdbb187-0e40-45bd-8bec-bb49824e568a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOL+" bidirectional
+			(at 161.29 88.9 180)
+			(uuid "c4a4f1cb-8fe8-4379-98ac-ec10afd6d17c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Next" input
+			(at 161.29 91.44 180)
+			(uuid "df237c2b-6f1c-4c36-bc43-2913bd3f110a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Previous" input
+			(at 161.29 96.52 180)
+			(uuid "538b85a7-cfe0-44c0-8104-6f50068d27aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DAC_CC1" input
+			(at 161.29 105.41 180)
+			(uuid "6c57a2e9-20dc-4d53-83f2-438667ca566f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DAC_CABLE_DETECT_B" output
+			(at 161.29 113.03 180)
+			(uuid "8b866520-b810-40f5-bf22-7ed9ce112441")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_VBUS" input
+			(at 161.29 67.31 180)
+			(uuid "6a1e894f-72b2-4c54-ac44-184928a78221")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
