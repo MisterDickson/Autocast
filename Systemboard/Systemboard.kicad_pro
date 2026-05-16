@@ -752,7 +752,7 @@
         "uuid": "2f4830bd-672b-4d5b-b8d7-989ae91c893c"
       }
     ],
-    "used_designators": "L4,D1,#PWR13,#PWR121,#PWR154-156,Q3,C24-25,C216-217,R136,U4-6",
+    "used_designators": "R137-138,U7,L5-7,D2-3,C26-30,C304,#PWR14-16,#PWR157-175",
     "variants": []
   },
   "sheets": [
@@ -766,7 +766,7 @@
     ],
     [
       "60a7bbcf-cdb5-42ef-b224-050c5add5d3c",
-      "Shunt"
+      "USB Charger"
     ],
     [
       "14c4f1a7-1394-4755-ae7a-a4c46109c072",

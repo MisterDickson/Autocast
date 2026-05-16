@@ -3488,7 +3488,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "check whether the headset uses NC or NO switches and reserve that switches for them\n\namplifier\n\npower supply\nhigh-current 5V, +/-12V maybe, high-current dimmable 2V-3V3\n\nreed switches\namp input mux"
+	(text "check for linear voltage regulator on jlc\n\ndisplay illumination by using an optoelectric feedback with a vreg\n\nreed switches"
 		(exclude_from_sim no)
 		(at 84.836 22.352 0)
 		(effects
@@ -3638,16 +3638,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 130.81) (xy 243.84 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04263279-f597-436d-960d-e7f08f64ea66")
-	)
-	(wire
-		(pts
 			(xy 208.28 144.78) (xy 205.74 144.78)
 		)
 		(stroke
@@ -3695,6 +3685,16 @@
 			(type default)
 		)
 		(uuid "1146a64c-97db-426a-954d-f7ee53f2f93a")
+	)
+	(wire
+		(pts
+			(xy 242.57 140.97) (xy 243.84 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12abacd0-de84-443b-b627-8c50e32788dc")
 	)
 	(wire
 		(pts
@@ -4328,6 +4328,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 137.16) (xy 243.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895c92ea-d138-4fdc-adf9-ebb740b9c79a")
+	)
+	(wire
+		(pts
 			(xy 186.69 92.71) (xy 191.77 92.71)
 		)
 		(stroke
@@ -4766,6 +4776,16 @@
 		)
 		(uuid "f8546417-faea-41f2-a13b-4b772cbb554c")
 	)
+	(wire
+		(pts
+			(xy 242.57 130.81) (xy 243.84 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce81b78-55e8-4cbe-a5b6-78b0b033efbf")
+	)
 	(label "BTN_1_COM_B"
 		(at 124.46 20.32 180)
 		(effects
@@ -4996,6 +5016,16 @@
 		)
 		(uuid "69a04fa8-feab-4d82-8424-c08a4855e452")
 	)
+	(label "CHARGER_CC2"
+		(at 242.57 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a870b4f-ddb6-483c-b36f-870e333128cd")
+	)
 	(label "CHARGER_D-"
 		(at 31.75 59.69 0)
 		(effects
@@ -5157,7 +5187,7 @@
 		(uuid "a25c881a-783d-4a55-a544-3762dbf65f82")
 	)
 	(label "CHARGER_VBUS"
-		(at 241.3 130.81 180)
+		(at 242.57 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5195,6 +5225,16 @@
 			(justify left bottom)
 		)
 		(uuid "b8261d14-ed0c-4a53-8622-a64912168981")
+	)
+	(label "CHARGER_CC1"
+		(at 242.57 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bcf0a0d3-7759-4011-8d38-2851a415bb9b")
 	)
 	(label "DAC_CC1"
 		(at 31.75 26.67 0)
@@ -8787,7 +8827,7 @@
 	)
 	(sheet
 		(at 243.84 110.49)
-		(size 25.4 25.4)
+		(size 25.4 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8801,7 +8841,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "60a7bbcf-cdb5-42ef-b224-050c5add5d3c")
-		(property "Sheetname" "Shunt"
+		(property "Sheetname" "USB Charger"
 			(at 243.84 109.7784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8813,7 +8853,7 @@
 			)
 		)
 		(property "Sheetfile" "Shunt.kicad_sch"
-			(at 243.84 136.4746 0)
+			(at 243.84 145.3646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8843,9 +8883,29 @@
 				(justify left)
 			)
 		)
-		(pin "Vin-" passive
+		(pin "V_CHARGER" passive
 			(at 243.84 130.81 180)
-			(uuid "b37e7d1b-30ba-4e59-98ce-51f8bb1eaea3")
+			(uuid "d132b874-6dec-40a2-a565-fc77505c6f82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CC2" output
+			(at 243.84 140.97 180)
+			(uuid "88419f2d-d289-47d2-bda1-a3cca12fffd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CC1" output
+			(at 243.84 137.16 180)
+			(uuid "42d06d66-ca1f-4df8-8da4-f5a33528edec")
 			(effects
 				(font
 					(size 1.27 1.27)
