@@ -752,7 +752,7 @@
         "uuid": "2f4830bd-672b-4d5b-b8d7-989ae91c893c"
       }
     ],
-    "used_designators": "#PWR507,R144-145",
+    "used_designators": "C33,C119,R146-149,U10,Q4-5,#PWR18,#PWR176,#PWR183-189",
     "variants": []
   },
   "sheets": [
@@ -787,6 +787,10 @@
     [
       "9fbee41b-ad3d-4da0-bb94-6595ace1464a",
       "Power Supply"
+    ],
+    [
+      "97312079-c6ee-4edf-948e-7d14706b56b5",
+      "Configurator"
     ]
   ],
   "text_variables": {},
