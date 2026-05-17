@@ -1985,6 +1985,12 @@
 		(uuid "16a23199-0649-4fbe-b8ca-1ce286a69af2")
 	)
 	(junction
+		(at 163.83 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17432825-90ed-41cc-b3d4-20651c4dfb4a")
+	)
+	(junction
 		(at 224.79 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2169,6 +2175,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8e3772f-0e56-4896-9d3e-30df7eaf19e6")
+	)
+	(junction
+		(at 189.23 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8e85bfe-c9b6-48bb-9518-4f08251d26e1")
 	)
 	(junction
 		(at 177.8 57.15)
@@ -2648,6 +2660,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 139.7) (xy 189.23 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "482017b8-803c-45fd-9ba4-82e2822061d5")
+	)
+	(wire
+		(pts
 			(xy 234.95 78.74) (xy 218.44 78.74)
 		)
 		(stroke
@@ -2738,6 +2760,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 128.27) (xy 163.83 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502d05ee-c1fd-4ab2-9d43-52b9067ee3d5")
+	)
+	(wire
+		(pts
 			(xy 220.98 106.68) (xy 224.79 106.68)
 		)
 		(stroke
@@ -2788,6 +2820,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 154.94) (xy 189.23 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625f0a1d-dde2-4ff5-8a17-0918c3c254af")
+	)
+	(wire
+		(pts
 			(xy 101.6 101.6) (xy 101.6 133.35)
 		)
 		(stroke
@@ -2795,6 +2837,16 @@
 			(type default)
 		)
 		(uuid "6268a9b1-3f12-4e80-8d6d-324a223c23f9")
+	)
+	(wire
+		(pts
+			(xy 189.23 142.24) (xy 198.12 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659fa019-2b14-4902-9cda-2639b92ba46c")
 	)
 	(wire
 		(pts
@@ -3088,6 +3140,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 142.24) (xy 189.23 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d3d4e4a-990f-4ac4-914a-1cdaf682c6fa")
+	)
+	(wire
+		(pts
 			(xy 187.96 57.15) (xy 198.12 57.15)
 		)
 		(stroke
@@ -3135,6 +3197,16 @@
 			(type default)
 		)
 		(uuid "8f40d59f-7266-4f62-a773-1e50b4f56c72")
+	)
+	(wire
+		(pts
+			(xy 189.23 132.08) (xy 189.23 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9011bc9c-e839-46e2-b4da-fafd986aab98")
 	)
 	(wire
 		(pts
@@ -3806,7 +3878,7 @@
 		)
 		(uuid "b8759613-1d9a-478b-afc8-63d9416873b6")
 	)
-	(hierarchical_label "Mute"
+	(hierarchical_label "~{Mute}"
 		(shape input)
 		(at 53.34 110.49 180)
 		(effects
@@ -3882,6 +3954,17 @@
 			(justify left)
 		)
 		(uuid "ea8fea7a-5837-4622-a5b0-d4909a160ac9")
+	)
+	(hierarchical_label "~{Error}"
+		(shape output)
+		(at 198.12 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe9f062a-113d-495f-9351-9a2e38ddda17")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5080,6 +5163,110 @@
 			(project "Systemboard"
 				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c/dab3303c-12bb-4f79-a24a-d2ecbc0ee2a1"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 189.23 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "373dd8d7-cc20-4d27-91a3-74abe1425ca9")
+		(property "Reference" "R145"
+			(at 191.77 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3k3"
+			(at 191.77 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 187.452 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 189.23 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part #" "P3.3KDCCT-ND"
+			(at 189.23 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25890"
+			(at 189.23 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5c27a84-e85b-4e1c-9904-a385ed936bae")
+		)
+		(pin "2"
+			(uuid "ffb2278e-4967-46d1-a000-3722e1720c53")
+		)
+		(instances
+			(project "Systemboard"
+				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c/dab3303c-12bb-4f79-a24a-d2ecbc0ee2a1"
+					(reference "R145")
 					(unit 1)
 				)
 			)
@@ -7941,6 +8128,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 189.23 135.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b87b219-e666-4451-b248-c05128bb41eb")
+		(property "Reference" "R144"
+			(at 191.77 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 191.77 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 191.008 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part #" "1276-3431-1-ND"
+			(at 189.23 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 189.23 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b82eda26-1f17-403d-9c36-4652978107c2")
+		)
+		(pin "2"
+			(uuid "029575b8-dc26-4975-ba9a-27dede74ea50")
+		)
+		(instances
+			(project "Systemboard"
+				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c/dab3303c-12bb-4f79-a24a-d2ecbc0ee2a1"
+					(reference "R144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 201.93 91.44 0)
 		(unit 1)
@@ -8113,6 +8402,83 @@
 			(project "Systemboard"
 				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c/dab3303c-12bb-4f79-a24a-d2ecbc0ee2a1"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa79b566-7d38-4b7c-899a-8877db20860b")
+		(property "Reference" "#PWR0507"
+			(at 189.23 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 158.496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73a94e99-d76f-4e85-a44f-f2bdf9b9b929")
+		)
+		(instances
+			(project "Systemboard"
+				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c/dab3303c-12bb-4f79-a24a-d2ecbc0ee2a1"
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)

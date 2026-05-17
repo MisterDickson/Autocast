@@ -752,7 +752,7 @@
         "uuid": "2f4830bd-672b-4d5b-b8d7-989ae91c893c"
       }
     ],
-    "used_designators": "R136,R142-143,Speaker_Front1,#PWR152,#PWR179,J2-5",
+    "used_designators": "#PWR507,R144-145",
     "variants": []
   },
   "sheets": [
