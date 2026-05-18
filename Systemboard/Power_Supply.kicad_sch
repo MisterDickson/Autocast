@@ -348,6 +348,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -2963,10 +3129,10 @@
 		(uuid "af0e1272-ee65-4d86-b6c8-5f0ad8f0804a")
 	)
 	(junction
-		(at 76.2 35.56)
+		(at 91.44 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b1184010-b97b-4565-9de5-941df9f0a49a")
+		(uuid "c5d66a1e-e9f9-49a8-9758-bc78d34678ca")
 	)
 	(junction
 		(at 59.69 154.94)
@@ -3017,19 +3183,19 @@
 		(uuid "f9fa9cfd-9a5b-402d-be0d-dc07dfd31c26")
 	)
 	(no_connect
-		(at 81.28 77.47)
+		(at 96.52 83.82)
 		(uuid "497350d3-c5da-42df-bb08-b7491061f86e")
 	)
 	(no_connect
-		(at 78.74 77.47)
+		(at 93.98 83.82)
 		(uuid "73c2cfe7-ce0d-46fe-a0b1-5a771a18dcd7")
 	)
 	(no_connect
-		(at 86.36 77.47)
+		(at 101.6 83.82)
 		(uuid "bc84ca08-3dc7-46f3-ad55-2f3ecf84547c")
 	)
 	(no_connect
-		(at 81.28 36.83)
+		(at 96.52 43.18)
 		(uuid "eadcbaf0-0461-44c5-b35a-27c260701e5f")
 	)
 	(wire
@@ -3124,7 +3290,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 33.02) (xy 86.36 36.83)
+			(xy 101.6 39.37) (xy 101.6 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3254,7 +3420,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 35.56) (xy 76.2 35.56)
+			(xy 54.61 41.91) (xy 91.44 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3311,6 +3477,16 @@
 			(type default)
 		)
 		(uuid "57950c93-1d30-44c8-9298-9624aae0930c")
+	)
+	(wire
+		(pts
+			(xy 67.31 93.98) (xy 72.39 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60250078-8a55-41fb-a66c-c532c88a3f36")
 	)
 	(wire
 		(pts
@@ -3464,7 +3640,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 96.52) (xy 76.2 92.71)
+			(xy 91.44 102.87) (xy 91.44 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3501,6 +3677,16 @@
 			(type default)
 		)
 		(uuid "9885bcbc-2120-48fa-9beb-e54efce8cb21")
+	)
+	(wire
+		(pts
+			(xy 54.61 93.98) (xy 59.69 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c4d076-2150-472f-b4d9-45d18502887b")
 	)
 	(wire
 		(pts
@@ -3554,16 +3740,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 87.63) (xy 57.15 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2e41afe-647c-4651-8f5f-8c743213bb03")
-	)
-	(wire
-		(pts
 			(xy 88.9 151.13) (xy 95.25 151.13)
 		)
 		(stroke
@@ -3584,7 +3760,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 35.56) (xy 78.74 36.83)
+			(xy 93.98 41.91) (xy 93.98 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3614,7 +3790,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 35.56) (xy 76.2 36.83)
+			(xy 91.44 41.91) (xy 91.44 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3684,7 +3860,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 87.63) (xy 68.58 87.63)
+			(xy 80.01 93.98) (xy 83.82 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3744,7 +3920,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 35.56) (xy 78.74 35.56)
+			(xy 91.44 41.91) (xy 93.98 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3824,7 +4000,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 77.47) (xy 76.2 82.55)
+			(xy 91.44 83.82) (xy 91.44 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3885,14 +4061,14 @@
 	)
 	(hierarchical_label "Acc+"
 		(shape input)
-		(at 52.07 87.63 180)
+		(at 54.61 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "82527cf7-b692-43f1-8f89-63e467d94050")
+		(uuid "15d27ce6-8587-4982-8275-43f891a25db9")
 	)
 	(hierarchical_label "Display_On"
 		(shape input)
@@ -3929,7 +4105,7 @@
 	)
 	(hierarchical_label "B+"
 		(shape input)
-		(at 52.07 35.56 180)
+		(at 54.61 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4392,7 +4568,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:MMBT5551L")
-		(at 73.66 87.63 0)
+		(at 88.9 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4403,7 +4579,7 @@
 		(fields_autoplaced yes)
 		(uuid "2942ae2b-fc79-4fe4-bf57-926ee1e7f5bd")
 		(property "Reference" "Q3"
-			(at 78.74 86.3599 0)
+			(at 93.98 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4414,7 +4590,7 @@
 			)
 		)
 		(property "Value" "MMBT5551L"
-			(at 78.74 88.8999 0)
+			(at 93.98 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4425,7 +4601,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 78.74 89.535 0)
+			(at 93.98 95.885 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4438,7 +4614,7 @@
 			)
 		)
 		(property "Datasheet" "www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF"
-			(at 73.66 87.63 0)
+			(at 88.9 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4450,7 +4626,7 @@
 			)
 		)
 		(property "Description" "0.6A Ic, 160V Vce, NPN Transistor, SOT-23"
-			(at 73.66 87.63 0)
+			(at 88.9 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4461,7 +4637,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 73.66 87.63 0)
+			(at 88.9 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4472,7 +4648,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 73.66 87.63 0)
+			(at 88.9 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4676,107 +4852,6 @@
 			(project "Systemboard"
 				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c/9fbee41b-ad3d-4da0-bb94-6595ace1464a"
 					(reference "R147")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 60.96 87.63 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3e27bb4c-2ebd-457d-87cb-f37865ad5779")
-		(property "Reference" "R142"
-			(at 60.706 85.344 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4k7"
-			(at 60.96 83.566 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 60.96 89.408 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 60.96 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Part #" "P1.50KLCT-ND"
-			(at 60.96 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C25900"
-			(at 60.96 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "acc62883-990f-4c4c-8601-c51f25af796c")
-		)
-		(pin "2"
-			(uuid "bd6a0c2a-d499-407d-8fdb-fcb1eaeb4e57")
-		)
-		(instances
-			(project "Systemboard"
-				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c/9fbee41b-ad3d-4da0-bb94-6595ace1464a"
-					(reference "R142")
 					(unit 1)
 				)
 			)
@@ -5450,6 +5525,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 63.5 93.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6bc7e54a-23e9-431f-95a7-aff5fe2edba3")
+		(property "Reference" "R142"
+			(at 63.246 91.694 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 63.5 89.916 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 63.5 95.758 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part #" "P1.50KLCT-ND"
+			(at 63.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25900"
+			(at 63.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83dc2e4f-ad27-46d0-be1e-5eb12cdf89a6")
+		)
+		(pin "2"
+			(uuid "2e9d3e71-0c1f-4fa7-a54c-1e5fb6abc944")
+		)
+		(instances
+			(project "Systemboard"
+				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c/9fbee41b-ad3d-4da0-bb94-6595ace1464a"
+					(reference "R142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Switching:LM2596S-3.3")
 		(at 208.28 41.91 0)
 		(unit 1)
@@ -5655,7 +5831,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 96.52 0)
+		(at 91.44 102.87 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5667,7 +5843,7 @@
 		(fields_autoplaced yes)
 		(uuid "78ef19a1-550c-49a7-9e94-9d523ac6f185")
 		(property "Reference" "#PWR0154"
-			(at 76.2 102.87 0)
+			(at 91.44 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5678,7 +5854,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 101.6 0)
+			(at 91.44 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5688,7 +5864,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 96.52 0)
+			(at 91.44 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5699,7 +5875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 96.52 0)
+			(at 91.44 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5710,7 +5886,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 96.52 0)
+			(at 91.44 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5997,7 +6173,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 86.36 33.02 0)
+		(at 101.6 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6008,7 +6184,7 @@
 		(fields_autoplaced yes)
 		(uuid "92c6cdac-d084-4c27-b0ff-9ad090e640cc")
 		(property "Reference" "#PWR013"
-			(at 86.36 36.83 0)
+			(at 101.6 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6019,7 +6195,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 86.36 27.94 0)
+			(at 101.6 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6029,7 +6205,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 33.02 0)
+			(at 101.6 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6040,7 +6216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 33.02 0)
+			(at 101.6 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6051,7 +6227,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 86.36 33.02 0)
+			(at 101.6 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6338,7 +6514,7 @@
 	)
 	(symbol
 		(lib_id "External_Parts:J104D2C12VDC.20S")
-		(at 76.2 77.47 90)
+		(at 91.44 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6349,7 +6525,7 @@
 		(fields_autoplaced yes)
 		(uuid "95ae9cc5-40de-4f4a-bb39-fd1731fbff6a")
 		(property "Reference" "U4"
-			(at 90.17 55.8799 90)
+			(at 105.41 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6360,7 +6536,7 @@
 			)
 		)
 		(property "Value" "J104D2C12VDC.15S"
-			(at 90.17 58.4199 90)
+			(at 105.41 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6371,7 +6547,7 @@
 			)
 		)
 		(property "Footprint" "External_Parts:RELAY8_J104D2C12VDC.20S_CRS"
-			(at 76.2 77.47 0)
+			(at 91.44 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6383,7 +6559,7 @@
 			)
 		)
 		(property "Datasheet" "J104D2C12VDC.20S"
-			(at 76.2 77.47 0)
+			(at 91.44 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6395,7 +6571,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 77.47 0)
+			(at 91.44 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6406,7 +6582,7 @@
 			)
 		)
 		(property "DigiKey Part #" "2449-J104D2C12VDC.15S-ND"
-			(at 76.2 77.47 0)
+			(at 91.44 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7396,6 +7572,97 @@
 			(project "Systemboard"
 				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c/9fbee41b-ad3d-4da0-bb94-6595ace1464a"
 					(reference "#PWR0182")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 76.2 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3c1b66d-b0b0-4237-9e22-124149e021a8")
+		(property "Reference" "D5"
+			(at 76.2 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6V8"
+			(at 76.2 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 76.2 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 76.2 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2124"
+			(at 76.2 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "17caea38-7f32-44c4-b9f5-a986868ed160")
+		)
+		(pin "1"
+			(uuid "b0037fd6-bbbc-4c70-b567-f0118ecde6c6")
+		)
+		(instances
+			(project "Systemboard"
+				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c/9fbee41b-ad3d-4da0-bb94-6595ace1464a"
+					(reference "D5")
 					(unit 1)
 				)
 			)
