@@ -5,6 +5,172 @@
 	(uuid "b0345732-9e62-4a21-8b48-1c42a747dbaa")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1221,9 +1387,21 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 146.05 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a03e3ec3-5343-47a8-9ae4-65aab51d2c9a")
+	)
+	(junction
+		(at 146.05 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec362ec1-dfda-4165-b465-544a92037efa")
+	)
 	(wire
 		(pts
-			(xy 146.05 59.69) (xy 146.05 71.12)
+			(xy 146.05 59.69) (xy 146.05 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1233,7 +1411,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 111.76) (xy 146.05 121.92)
+			(xy 146.05 111.76) (xy 146.05 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1250,6 +1428,16 @@
 			(type default)
 		)
 		(uuid "292b2144-c18c-453c-b70a-c6756471ca59")
+	)
+	(wire
+		(pts
+			(xy 146.05 67.31) (xy 146.05 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34691d1b-e5d0-4a30-92e8-195c0a46fb78")
 	)
 	(wire
 		(pts
@@ -1283,6 +1471,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 88.9) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708c1739-230d-4b5e-95d6-74f504d2b93b")
+	)
+	(wire
+		(pts
 			(xy 149.86 60.96) (xy 148.59 60.96)
 		)
 		(stroke
@@ -1300,6 +1498,36 @@
 			(type default)
 		)
 		(uuid "86bca941-6fb5-4863-a9b0-45f9a2a5a99c")
+	)
+	(wire
+		(pts
+			(xy 127 67.31) (xy 146.05 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d6f264-032c-47bc-8379-4573021836e0")
+	)
+	(wire
+		(pts
+			(xy 127 96.52) (xy 127 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acccd77e-93d8-4a9a-a587-8f6b4a19cd82")
+	)
+	(wire
+		(pts
+			(xy 127 115.57) (xy 146.05 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b919e1-7c33-449f-923e-d380eb697536")
 	)
 	(wire
 		(pts
@@ -1340,6 +1568,16 @@
 			(type default)
 		)
 		(uuid "edd96c25-43f3-4c83-9425-27cd9e725146")
+	)
+	(wire
+		(pts
+			(xy 146.05 115.57) (xy 146.05 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0906fbc-2e59-4b6d-a19f-05992dc28cea")
 	)
 	(wire
 		(pts
@@ -1560,8 +1798,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 130.81 127 0)
+		(property "Description" ""
+			(at 130.81 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1584,17 +1822,6 @@
 		)
 		(property "JLCPCB Part #" "C25890"
 			(at 130.81 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 130.81 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1678,7 +1905,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 111.76 0)
+			(at 146.05 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1690,17 +1917,6 @@
 		)
 		(property "DigiKey Part #" "2449-J104D2C12VDC.15S-ND"
 			(at 146.05 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 146.05 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1802,7 +2018,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.6A Ic, 160V Vce, NPN Transistor, SOT-23"
+		(property "Description" ""
 			(at 143.51 127 0)
 			(hide yes)
 			(show_name no)
@@ -1825,17 +2041,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 143.51 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 143.51 127 0)
 			(hide yes)
 			(show_name no)
@@ -1949,6 +2154,99 @@
 			(project "Systemboard"
 				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c/089b12b0-dba4-41b3-9eb6-8cab80322476"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 127 92.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dde022e1-3270-4b4b-899c-4840325ddc05")
+		(property "Reference" "D7"
+			(at 129.54 91.1224 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS54"
+			(at 129.54 93.6624 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 127 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C22452"
+			(at 127 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bd71bf44-c491-48b3-88ba-6237f8d3cca5")
+		)
+		(pin "1"
+			(uuid "0d980860-b0e9-41bf-9d29-1c16dbadf39a")
+		)
+		(instances
+			(project "Systemboard"
+				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c/089b12b0-dba4-41b3-9eb6-8cab80322476"
+					(reference "D7")
 					(unit 1)
 				)
 			)

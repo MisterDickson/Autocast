@@ -2070,8 +2070,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 162.56 78.74 0)
+		(property "Description" ""
+			(at 162.56 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2093,17 +2093,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C15850"
-			(at 162.56 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 162.56 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -2341,7 +2330,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 171.45 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2364,17 +2353,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C23630"
-			(at 171.45 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 171.45 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2455,7 +2433,7 @@
 				)
 			)
 		)
-		(property "Description" "2.1 VRMS, 112dB Audio Stereo DAC with PLL and 32-bit, 384kHz PCM Interface, TSSOP-20"
+		(property "Description" ""
 			(at 154.94 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2478,17 +2456,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C107671"
-			(at 154.94 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 154.94 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2624,7 +2591,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 209.55 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2647,17 +2614,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1604"
-			(at 209.55 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 209.55 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2739,7 +2695,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 196.85 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2762,17 +2718,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1604"
-			(at 196.85 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 196.85 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3241,8 +3186,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 162.56 90.17 0)
+		(property "Description" ""
+			(at 162.56 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3264,17 +3209,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C28233"
-			(at 162.56 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 162.56 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -3430,8 +3364,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 147.32 90.17 0)
+		(property "Description" ""
+			(at 147.32 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3453,17 +3387,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C28233"
-			(at 147.32 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 147.32 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -3701,7 +3624,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 114.3 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3724,17 +3647,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C15850"
-			(at 114.3 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 114.3 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3816,7 +3728,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 199.39 127 0)
 			(hide yes)
 			(show_name no)
@@ -3839,17 +3751,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C15850"
-			(at 199.39 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 199.39 127 0)
 			(hide yes)
 			(show_name no)
@@ -3928,8 +3829,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 195.58 99.06 0)
+		(property "Description" ""
+			(at 195.58 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3951,17 +3852,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25117"
-			(at 195.58 99.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 195.58 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -4196,8 +4086,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 184.15 101.6 0)
+		(property "Description" ""
+			(at 184.15 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4219,17 +4109,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25117"
-			(at 184.15 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 184.15 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -4311,7 +4190,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 77.47 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4334,17 +4213,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C15850"
-			(at 77.47 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 77.47 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4423,8 +4291,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 160.02 64.77 0)
+		(property "Description" ""
+			(at 160.02 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4446,17 +4314,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C28233"
-			(at 160.02 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 160.02 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -4535,8 +4392,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 147.32 78.74 0)
+		(property "Description" ""
+			(at 147.32 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4558,17 +4415,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C15850"
-			(at 147.32 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 147.32 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -4727,7 +4573,7 @@
 				)
 			)
 		)
-		(property "Description" "300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+		(property "Description" ""
 			(at 99.06 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4750,17 +4596,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C134139"
-			(at 99.06 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 99.06 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4929,7 +4764,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 184.15 127 0)
 			(hide yes)
 			(show_name no)
@@ -4952,17 +4787,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C28233"
-			(at 184.15 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 184.15 127 0)
 			(hide yes)
 			(show_name no)
@@ -5043,7 +4867,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 168.91 127 0)
 			(hide yes)
 			(show_name no)
@@ -5066,17 +4890,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C23630"
-			(at 168.91 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 168.91 127 0)
 			(hide yes)
 			(show_name no)

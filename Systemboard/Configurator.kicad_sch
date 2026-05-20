@@ -1248,7 +1248,7 @@
 				)
 			)
 		)
-		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+		(property "Description" ""
 			(at 139.7 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -1260,17 +1260,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5947"
-			(at 139.7 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 139.7 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -1627,7 +1616,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 144.78 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -1650,17 +1639,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C28233"
-			(at 144.78 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 144.78 67.31 0)
 			(hide yes)
 			(show_name no)

@@ -3093,6 +3093,12 @@
 		(uuid "081271df-8294-4197-94bb-242c01514121")
 	)
 	(junction
+		(at 91.44 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11d3d31e-0976-4336-b923-8225634e1b6e")
+	)
+	(junction
 		(at 191.77 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3115,6 +3121,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e27b316-bd58-4137-999e-a2453fe710a1")
+	)
+	(junction
+		(at 76.2 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9762e2b9-77f4-4a0e-b845-b54121a2027b")
 	)
 	(junction
 		(at 246.38 39.37)
@@ -3240,6 +3252,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 41.91) (xy 91.44 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0697ec9f-41c6-429c-a6c7-1ef0255daf24")
+	)
+	(wire
+		(pts
 			(xy 238.76 97.79) (xy 246.38 97.79)
 		)
 		(stroke
@@ -3287,6 +3309,16 @@
 			(type default)
 		)
 		(uuid "169861c1-5d13-4c00-b437-36e6dae09677")
+	)
+	(wire
+		(pts
+			(xy 76.2 66.04) (xy 76.2 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d6e6bdb-1624-428d-a2d2-526a36084134")
 	)
 	(wire
 		(pts
@@ -3420,7 +3452,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 41.91) (xy 91.44 41.91)
+			(xy 54.61 41.91) (xy 76.2 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3477,6 +3509,16 @@
 			(type default)
 		)
 		(uuid "57950c93-1d30-44c8-9298-9624aae0930c")
+	)
+	(wire
+		(pts
+			(xy 91.44 85.09) (xy 91.44 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583fc57b-1701-45b8-a5a8-e633fa62be51")
 	)
 	(wire
 		(pts
@@ -3850,6 +3892,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 41.91) (xy 76.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6b1227-ec78-4d24-bf90-44a8c4ab225d")
+	)
+	(wire
+		(pts
 			(xy 63.5 151.13) (xy 63.5 154.94)
 		)
 		(stroke
@@ -4000,7 +4052,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 83.82) (xy 91.44 88.9)
+			(xy 91.44 83.82) (xy 91.44 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4037,6 +4089,16 @@
 			(type default)
 		)
 		(uuid "f6778477-2376-4c77-ab64-b0e98541f53e")
+	)
+	(wire
+		(pts
+			(xy 76.2 85.09) (xy 91.44 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc34790-f6f8-4d02-a807-ff99a1ba750d")
 	)
 	(wire
 		(pts
@@ -4167,8 +4229,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 160.02 153.67 0)
+		(property "Description" ""
+			(at 160.02 153.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4191,17 +4253,6 @@
 		)
 		(property "JLCPCB Part #" "C25079"
 			(at 160.02 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 160.02 153.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4359,7 +4410,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 246.38 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4381,17 +4432,6 @@
 				)
 			)
 		)
-		(property "DESCRIPTION" ""
-			(at 246.38 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "1c7dfce4-7866-4af5-87b6-e9769ab6bcbc")
 		)
@@ -4402,6 +4442,99 @@
 			(project "Systemboard"
 				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c/9fbee41b-ad3d-4da0-bb94-6595ace1464a"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 76.2 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c6c09af-4c37-4df9-8630-a57a7da0941c")
+		(property "Reference" "D6"
+			(at 78.74 60.6424 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS54"
+			(at 78.74 63.1824 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 76.2 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C22452"
+			(at 76.2 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fcc8cf52-b775-4fa8-b097-7777bb1eeb28")
+		)
+		(pin "1"
+			(uuid "a98aa0d5-a02d-4023-8a77-c844f5387ff7")
+		)
+		(instances
+			(project "Systemboard"
+				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c/9fbee41b-ad3d-4da0-bb94-6595ace1464a"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4540,8 +4673,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 179.07 107.95 0)
+		(property "Description" ""
+			(at 179.07 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4564,17 +4697,6 @@
 		)
 		(property "JLCPCB Part #" "C25890"
 			(at 179.07 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 179.07 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4658,7 +4780,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.6A Ic, 160V Vce, NPN Transistor, SOT-23"
+		(property "Description" ""
 			(at 88.9 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4681,17 +4803,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 88.9 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 88.9 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4867,6 +4978,7 @@
 		)
 		(property "Description" ""
 			(at 59.69 149.86 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4887,17 +4999,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25744"
-			(at 59.69 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 59.69 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -5294,7 +5395,7 @@
 				)
 			)
 		)
-		(property "Description" "5V 3A Step-Down Voltage Regulator, TO-263"
+		(property "Description" ""
 			(at 208.28 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5306,17 +5407,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C10002"
-			(at 208.28 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 208.28 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5564,7 +5654,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 160.02 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -5576,17 +5666,6 @@
 			)
 		)
 		(property "DigiKey Part #" "1189-1749-ND"
-			(at 160.02 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 160.02 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -5665,8 +5744,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 63.5 93.98 0)
+		(property "Description" ""
+			(at 63.5 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5689,17 +5768,6 @@
 		)
 		(property "JLCPCB Part #" "C25900"
 			(at 63.5 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 63.5 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5780,7 +5848,7 @@
 				)
 			)
 		)
-		(property "Description" "3.3V 3A Step-Down Voltage Regulator, TO-263"
+		(property "Description" ""
 			(at 208.28 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5792,17 +5860,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C7929"
-			(at 208.28 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 208.28 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5894,6 +5951,7 @@
 		)
 		(property "Description" ""
 			(at 191.77 96.52 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5914,17 +5972,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25744"
-			(at 191.77 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 191.77 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6085,7 +6132,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 246.38 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6097,17 +6144,6 @@
 			)
 		)
 		(property "DigiKey Part #" "1189-2913-ND"
-			(at 246.38 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 246.38 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6188,18 +6224,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
-			(at 95.25 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C22452"
+		(property "Description" ""
 			(at 95.25 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -6210,7 +6235,7 @@
 				)
 			)
 		)
-		(property "DESCRIPTION" ""
+		(property "JLCPCB Part #" "C22452"
 			(at 95.25 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -6527,18 +6552,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
-			(at 227.33 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C22452"
+		(property "Description" ""
 			(at 227.33 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -6549,7 +6563,7 @@
 				)
 			)
 		)
-		(property "DESCRIPTION" ""
+		(property "JLCPCB Part #" "C22452"
 			(at 227.33 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -6629,8 +6643,8 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 234.95 97.79 0)
+		(property "Description" ""
+			(at 234.95 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6642,17 +6656,6 @@
 		)
 		(property "DigiKey Part #" "732-11449-1-ND"
 			(at 234.95 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 234.95 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6747,7 +6750,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 83.82 0)
+			(at 91.44 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6759,17 +6762,6 @@
 		)
 		(property "DigiKey Part #" "2449-J104D2C12VDC.15S-ND"
 			(at 91.44 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 91.44 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6868,7 +6860,7 @@
 				)
 			)
 		)
-		(property "Description" "Adjustable 3A Step-Down Voltage Regulator, TO-263"
+		(property "Description" ""
 			(at 76.2 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6880,17 +6872,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C29781"
-			(at 76.2 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 76.2 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6978,8 +6959,8 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 102.87 151.13 0)
+		(property "Description" ""
+			(at 102.87 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6991,17 +6972,6 @@
 		)
 		(property "DigiKey Part #" "732-11449-1-ND"
 			(at 102.87 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 102.87 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7093,18 +7063,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
-			(at 227.33 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C22452"
+		(property "Description" ""
 			(at 227.33 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -7115,7 +7074,7 @@
 				)
 			)
 		)
-		(property "DESCRIPTION" ""
+		(property "JLCPCB Part #" "C22452"
 			(at 227.33 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -7194,7 +7153,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 129.54 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7217,17 +7176,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25867"
-			(at 129.54 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 129.54 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7545,7 +7493,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 114.3 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -7557,17 +7505,6 @@
 			)
 		)
 		(property "DigiKey Part #" "1189-2913-ND"
-			(at 114.3 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 114.3 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -7884,7 +7821,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" ""
 			(at 76.2 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7896,17 +7833,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2124"
-			(at 76.2 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 76.2 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7991,7 +7917,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.6A Ic, 160V Vce, NPN Transistor, SOT-23"
+		(property "Description" ""
 			(at 189.23 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8014,17 +7940,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 189.23 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 189.23 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8123,7 +8038,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.6A Ic, 160V Vce, NPN Transistor, SOT-23"
+		(property "Description" ""
 			(at 57.15 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8146,17 +8061,6 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 57.15 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 57.15 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8328,7 +8232,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 129.54 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8351,17 +8255,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25900"
-			(at 129.54 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 129.54 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8601,7 +8494,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 27.94 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -8613,17 +8506,6 @@
 			)
 		)
 		(property "DigiKey Part #" "1189-1749-ND"
-			(at 27.94 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 27.94 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -8703,8 +8585,8 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 234.95 44.45 0)
+		(property "Description" ""
+			(at 234.95 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8716,17 +8598,6 @@
 		)
 		(property "DigiKey Part #" "732-11449-1-ND"
 			(at 234.95 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 234.95 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8818,7 +8689,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 181.61 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8830,17 +8701,6 @@
 			)
 		)
 		(property "DigiKey Part #" "1189-1749-ND"
-			(at 181.61 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 181.61 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9077,7 +8937,7 @@
 				)
 			)
 		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"
+		(property "Description" ""
 			(at 147.32 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -9089,17 +8949,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C109227"
-			(at 147.32 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 147.32 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -9185,8 +9034,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 46.99 161.29 0)
+		(property "Description" ""
+			(at 46.99 161.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9209,17 +9058,6 @@
 		)
 		(property "JLCPCB Part #" "C25890"
 			(at 46.99 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 46.99 161.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1623,7 +1623,7 @@
 				)
 			)
 		)
-		(property "Description" "Hex inverter schmitt trigger"
+		(property "Description" ""
 			(at 127 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -1646,17 +1646,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5605"
-			(at 127 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 127 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -1772,7 +1761,8 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 129.54 0)
+			(at 156.21 129.54 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1793,17 +1783,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C23182"
-			(at 156.21 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 156.21 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -1882,7 +1861,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 166.37 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1905,17 +1884,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C28233"
-			(at 166.37 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 166.37 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2073,7 +2041,8 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 80.01 0)
+			(at 179.07 80.01 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2094,17 +2063,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C23182"
-			(at 179.07 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 179.07 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -2262,7 +2220,7 @@
 				)
 			)
 		)
-		(property "Description" "Hex inverter schmitt trigger"
+		(property "Description" ""
 			(at 127 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2285,17 +2243,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5605"
-			(at 127 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 127 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2414,6 +2361,7 @@
 		)
 		(property "Description" ""
 			(at 143.51 90.17 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2434,17 +2382,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25744"
-			(at 143.51 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 143.51 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2527,6 +2464,7 @@
 		)
 		(property "Description" ""
 			(at 143.51 57.15 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2547,17 +2485,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25744"
-			(at 143.51 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 143.51 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -2791,7 +2718,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 166.37 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2814,17 +2741,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C28233"
-			(at 166.37 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 166.37 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2981,7 +2897,8 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 113.03 0)
+			(at 179.07 113.03 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3002,17 +2919,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C23182"
-			(at 179.07 113.03 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 179.07 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -3091,7 +2997,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 54.61 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3114,17 +3020,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C28233"
-			(at 54.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 54.61 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3204,7 +3099,7 @@
 				)
 			)
 		)
-		(property "Description" "Hex inverter schmitt trigger"
+		(property "Description" ""
 			(at 127 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3227,17 +3122,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5605"
-			(at 127 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 127 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3430,7 +3314,7 @@
 				)
 			)
 		)
-		(property "Description" "Hex inverter schmitt trigger"
+		(property "Description" ""
 			(at 127 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3453,17 +3337,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5605"
-			(at 127 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 127 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3735,7 +3608,7 @@
 				)
 			)
 		)
-		(property "Description" "Hex inverter schmitt trigger"
+		(property "Description" ""
 			(at 127 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3758,17 +3631,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5605"
-			(at 127 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 127 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3887,6 +3749,7 @@
 		)
 		(property "Description" ""
 			(at 166.37 106.68 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3907,17 +3770,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25744"
-			(at 166.37 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 166.37 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3996,7 +3848,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 143.51 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4019,17 +3871,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C28233"
-			(at 143.51 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 143.51 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4112,6 +3953,7 @@
 		)
 		(property "Description" ""
 			(at 166.37 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4132,17 +3974,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25744"
-			(at 166.37 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 166.37 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4299,7 +4130,8 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 63.5 0)
+			(at 156.21 63.5 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4320,17 +4152,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C23182"
-			(at 156.21 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 156.21 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -4491,6 +4312,7 @@
 		)
 		(property "Description" ""
 			(at 143.51 123.19 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4511,17 +4333,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25744"
-			(at 143.51 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 143.51 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -4603,7 +4414,7 @@
 				)
 			)
 		)
-		(property "Description" "Hex inverter schmitt trigger"
+		(property "Description" ""
 			(at 69.85 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4626,17 +4437,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5605"
-			(at 69.85 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 69.85 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4751,7 +4551,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 143.51 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4774,17 +4574,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C28233"
-			(at 143.51 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 143.51 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4867,6 +4656,7 @@
 		)
 		(property "Description" ""
 			(at 134.62 149.86 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4887,17 +4677,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25744"
-			(at 134.62 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 134.62 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -5208,7 +4987,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 143.51 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5231,17 +5010,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C28233"
-			(at 143.51 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 143.51 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5476,7 +5244,8 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 96.52 0)
+			(at 156.21 96.52 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5497,17 +5266,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C23182"
-			(at 156.21 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 156.21 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -5587,7 +5345,7 @@
 				)
 			)
 		)
-		(property "Description" "Hex inverter schmitt trigger"
+		(property "Description" ""
 			(at 127 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5610,17 +5368,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C5605"
-			(at 127 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 127 113.03 0)
 			(hide yes)
 			(show_name no)
