@@ -1593,6 +1593,17 @@
 				)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 130.81 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1a5786d1-d12b-43d2-90f3-3d9d8ec65199")
 		)
@@ -1679,6 +1690,17 @@
 		)
 		(property "DigiKey Part #" "2449-J104D2C12VDC.15S-ND"
 			(at 146.05 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 146.05 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1803,6 +1825,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 143.51 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 143.51 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2145"
 			(at 143.51 127 0)
 			(hide yes)
 			(show_name no)
