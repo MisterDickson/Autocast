@@ -1270,17 +1270,6 @@
 				)
 			)
 		)
-		(property "DESCRIPTION" ""
-			(at 139.7 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "9"
 			(uuid "b1692f59-f052-404b-a93a-848dc66c2064")
 		)
@@ -1650,17 +1639,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C28233"
-			(at 144.78 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 144.78 67.31 0)
 			(hide yes)
 			(show_name no)

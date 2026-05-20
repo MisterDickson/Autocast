@@ -2765,17 +2765,6 @@
 				)
 			)
 		)
-		(property "DESCRIPTION" ""
-			(at 184.15 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "e82e6bcc-b150-4915-b40a-911b36d32a30")
 		)
@@ -3114,17 +3103,6 @@
 				)
 			)
 		)
-		(property "DESCRIPTION" ""
-			(at 223.52 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1fd710f7-fac7-45e8-be6f-e9b785cf3941")
 		)
@@ -3253,7 +3231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
 			(at 223.52 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3298,17 +3276,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C49851"
-			(at 203.2 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 203.2 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3436,17 +3403,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25744"
-			(at 153.67 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 153.67 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3618,17 +3574,6 @@
 			)
 		)
 		(property "DigiKey Part #" "1189-1304-ND"
-			(at 130.81 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 130.81 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3900,17 +3845,6 @@
 				)
 			)
 		)
-		(property "DESCRIPTION" ""
-			(at 232.41 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0d072c2e-e71b-4ba6-9b0b-ce7c11d0936f")
 		)
@@ -4012,17 +3946,6 @@
 				)
 			)
 		)
-		(property "DESCRIPTION" ""
-			(at 123.19 91.44 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ff4c99ef-42cc-4a7f-826c-77cd27df0250")
 		)
@@ -4106,17 +4029,6 @@
 			)
 		)
 		(property "DigiKey Part #" "1189-1749-ND"
-			(at 50.8 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 50.8 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4388,17 +4300,6 @@
 				)
 			)
 		)
-		(property "DESCRIPTION" ""
-			(at 137.16 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "d777e415-8e6c-4ac4-93d3-082dce10eca9")
 		)
@@ -4580,17 +4481,6 @@
 				)
 			)
 		)
-		(property "DESCRIPTION" ""
-			(at 143.51 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "4db1eecb-5d33-402a-8a01-be9c1625eeab")
 		)
@@ -4684,17 +4574,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C134139"
-			(at 158.75 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 158.75 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4893,17 +4772,6 @@
 				)
 			)
 		)
-		(property "DESCRIPTION" ""
-			(at 104.14 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "eeece235-39d1-4d85-b2cb-8384da94bc8c")
 		)
@@ -5066,17 +4934,6 @@
 			)
 		)
 		(property "DigiKey Part #" "1189-2913-ND"
-			(at 115.57 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 115.57 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5269,17 +5126,6 @@
 				)
 			)
 		)
-		(property "DESCRIPTION" ""
-			(at 187.96 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "e2caa116-dbaa-4abc-8d06-b4b645fbef80")
 		)
@@ -5363,17 +5209,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C22452"
-			(at 96.52 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 96.52 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -5478,17 +5313,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C15850"
-			(at 173.99 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 173.99 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5659,17 +5483,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C10002"
-			(at 77.47 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DESCRIPTION" ""
 			(at 77.47 93.98 0)
 			(hide yes)
 			(show_name no)
