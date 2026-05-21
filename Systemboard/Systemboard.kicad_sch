@@ -7624,16 +7624,6 @@
 		)
 		(uuid "0b3fdd23-3228-468a-87dc-e2e50949e3f0")
 	)
-	(label "Speaker_NL"
-		(at 53.34 222.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c8d8ae4-6841-423a-a2c3-773ef1adb7f9")
-	)
 	(label "BTN_2_NO_A"
 		(at 250.19 224.79 0)
 		(effects
@@ -7753,6 +7743,16 @@
 			(justify left bottom)
 		)
 		(uuid "22383f70-29bf-44e6-9efd-2337ada9bd1b")
+	)
+	(label "Speaker_NR"
+		(at 40.64 207.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2548d97b-3808-4b13-83d8-e082bf6716ae")
 	)
 	(label "ESP_EN"
 		(at 109.22 50.8 0)
@@ -7904,6 +7904,16 @@
 		)
 		(uuid "4ad50715-14c6-4241-a3f3-8fa65e3f6ce1")
 	)
+	(label "Speaker_PR"
+		(at 53.34 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b322374-4929-4732-995a-ee65229353fd")
+	)
 	(label "BTN_2_NC_B"
 		(at 36.83 151.13 0)
 		(effects
@@ -7924,16 +7934,6 @@
 		)
 		(uuid "505340fd-16ee-4e4e-89d4-39d753326d85")
 	)
-	(label "Speaker_NR"
-		(at 53.34 224.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "51474914-9bfa-48ce-870e-fc910a4c18aa")
-	)
 	(label "BTN_5_COM_B"
 		(at 36.83 110.49 0)
 		(effects
@@ -7953,6 +7953,16 @@
 			(justify left bottom)
 		)
 		(uuid "5546f13a-582e-426e-bdae-fbd9a48ff2e8")
+	)
+	(label "Speaker_NL"
+		(at 40.64 204.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a00cd95-faaa-4e8b-99ae-b3ad34eaf8b3")
 	)
 	(label "CHARGER_SHUNT_SCL"
 		(at 351.79 198.12 180)
@@ -8014,6 +8024,16 @@
 		)
 		(uuid "640935e8-d7f6-49bb-8678-e1766da88a1e")
 	)
+	(label "Speaker_NR"
+		(at 40.64 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65da5b2f-f33c-492f-b3b2-40eda8383b63")
+	)
 	(label "ESP_RXD"
 		(at 170.18 203.2 0)
 		(effects
@@ -8074,16 +8094,6 @@
 		)
 		(uuid "6ee19997-845a-428b-9d9c-afc6cb44dadf")
 	)
-	(label "Speaker_PL"
-		(at 40.64 204.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6fe53da6-c114-4dfa-a1b8-e48d7f5d4586")
-	)
 	(label "Illumination"
 		(at 43.18 256.54 180)
 		(effects
@@ -8103,16 +8113,6 @@
 			(justify left bottom)
 		)
 		(uuid "71b857ce-2d6e-4512-bbb8-217a901f3970")
-	)
-	(label "Speaker_PR"
-		(at 40.64 207.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "74c091e1-83b7-4c8e-a974-d9fe52a0c92d")
 	)
 	(label "CHARGER_D-"
 		(at 36.83 62.23 0)
@@ -8264,16 +8264,6 @@
 		)
 		(uuid "932b224c-c760-4337-99fc-dd1d3dd2bd5a")
 	)
-	(label "Speaker_NL"
-		(at 53.34 204.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9493b923-e48f-41fc-bd72-e92423e826e8")
-	)
 	(label "BTN_4_COM_A"
 		(at 36.83 128.27 0)
 		(effects
@@ -8373,16 +8363,6 @@
 			(justify left bottom)
 		)
 		(uuid "ac58c42d-749b-4b8d-9c2c-fa8f3fa5a796")
-	)
-	(label "Speaker_NR"
-		(at 53.34 207.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af666af3-1209-46f3-8123-d256c94f850c")
 	)
 	(label "CONFIG_Update"
 		(at 170.18 213.36 0)
@@ -8484,16 +8464,6 @@
 		)
 		(uuid "b8261d14-ed0c-4a53-8622-a64912168981")
 	)
-	(label "Speaker_PR"
-		(at 40.64 224.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bb464677-4b47-473f-9374-6d7c6c79c759")
-	)
 	(label "CHARGER_CC1"
 		(at 351.79 214.63 180)
 		(effects
@@ -8524,6 +8494,16 @@
 		)
 		(uuid "c043200c-9fdc-4a5e-9043-76915cff4f15")
 	)
+	(label "Speaker_PL"
+		(at 53.34 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2a60e5d-3b59-4a40-b6bc-3456c307dffd")
+	)
 	(label "DAC_CC1"
 		(at 36.83 29.21 0)
 		(effects
@@ -8553,6 +8533,16 @@
 			(justify left bottom)
 		)
 		(uuid "c4e89c97-683c-431a-b999-ccd48ea86b61")
+	)
+	(label "Speaker_PR"
+		(at 53.34 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c538f26d-ae38-4130-980f-a7068de07313")
 	)
 	(label "Speaker_NL"
 		(at 369.57 80.01 0)
@@ -8643,16 +8633,6 @@
 			(justify left bottom)
 		)
 		(uuid "d43ff0a5-d7b4-4bde-a752-109bdfa2a161")
-	)
-	(label "Speaker_PL"
-		(at 40.64 222.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d4b61d8c-0711-4126-94fe-92cb7731387d")
 	)
 	(label "BTN_4_NO_A"
 		(at 250.19 234.95 0)
@@ -8784,6 +8764,16 @@
 		)
 		(uuid "f0f11a62-aa43-4025-8bd7-d2512940fcca")
 	)
+	(label "Speaker_NL"
+		(at 40.64 222.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1406122-69d5-49d5-89b7-4d87ecd4d99b")
+	)
 	(label "BTN_3_COM_B"
 		(at 36.83 140.97 0)
 		(effects
@@ -8793,6 +8783,16 @@
 			(justify left bottom)
 		)
 		(uuid "f19aa13b-0099-4c9f-8ba6-6024cf0caa91")
+	)
+	(label "Speaker_PL"
+		(at 53.34 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3078e98-64cc-4fc8-ad1e-9091ea038c60")
 	)
 	(label "BTN_3_COM_A"
 		(at 36.83 143.51 0)
