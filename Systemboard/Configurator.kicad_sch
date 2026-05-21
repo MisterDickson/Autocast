@@ -805,6 +805,18 @@
 		(uuid "0085c3fb-028d-4c1b-a4e2-da9848e44f44")
 	)
 	(no_connect
+		(at 149.86 97.79)
+		(uuid "4f422b8e-79ba-496e-b0c6-7878a1934058")
+	)
+	(no_connect
+		(at 149.86 102.87)
+		(uuid "5a412d0e-d150-4e0f-a388-f58d47fb3589")
+	)
+	(no_connect
+		(at 149.86 100.33)
+		(uuid "beecc337-0abd-44c3-83b6-f283dc2d1391")
+	)
+	(no_connect
 		(at 149.86 107.95)
 		(uuid "d351e2e4-dde7-4383-9b4f-bca45c57aafa")
 	)

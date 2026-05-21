@@ -95,7 +95,7 @@
 		(tags "CP Radial series Radial pin pitch 3.50mm diameter 8mm height 12mm Electrolytic Capacitor")
 		(property "Reference" "C30"
 			(at 1.75 -5.25 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "b2fd2698-b8bd-44f6-ab5e-809c1781757b")
 			(effects
 				(font
@@ -1850,7 +1850,7 @@
 		(property "Reference" "U3"
 			(at 3.81 8.919997 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f2269b8c-9c80-454b-ba7e-b695f853a420")
 			(effects
 				(font
@@ -2238,7 +2238,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "C3"
 			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "313202a8-1c67-440c-bd89-d16ed9366516")
 			(effects
 				(font
@@ -2422,7 +2422,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R139"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "05bb3b7f-35ab-40f9-806e-e06411b9c703")
 			(effects
 				(font
@@ -2606,7 +2606,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R132"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "2f844a0a-76f0-4c8b-9412-3a53b367aa5a")
 			(effects
 				(font
@@ -2790,7 +2790,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C302"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "b60f9cf4-a3c1-4f49-aa33-9fc3d5770f93")
 			(effects
 				(font
@@ -2974,7 +2974,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R105"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "5b383d4b-b18e-4f41-b687-6d37682fcab8")
 			(effects
 				(font
@@ -3158,7 +3158,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C209"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "aea30402-71d7-4138-952b-0157e0fd1204")
 			(effects
 				(font
@@ -3342,7 +3342,7 @@
 		(tags "Diode SMA (DO-214AC) Handsoldering")
 		(property "Reference" "D3"
 			(at 0 -2.5 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "387785e1-7a9f-4cb0-9d21-02ac60d5d880")
 			(effects
 				(font
@@ -3635,7 +3635,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C106"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c4042c9b-f7ca-42b1-87a7-66c5677f9eae")
 			(effects
 				(font
@@ -3819,7 +3819,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R140"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "bd88baa6-47e3-4a02-b0e3-3c1fc983ea16")
 			(effects
 				(font
@@ -4003,7 +4003,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C502"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "d8bdbe5d-da6f-48be-9a05-7b0a82aee907")
 			(effects
 				(font
@@ -4187,7 +4187,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C217"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "407a7dae-70cd-4866-8500-8c7812eff79c")
 			(effects
 				(font
@@ -4371,7 +4371,7 @@
 		(tags "SOIC SO")
 		(property "Reference" "U102"
 			(at 0 -5.28 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "3db19a62-db95-48ea-8199-5f0356a56e53")
 			(effects
 				(font
@@ -4827,7 +4827,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
 			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "cfa4aa14-8eaa-4ba3-b2e2-6332ffd56d8a")
 			(effects
 				(font
@@ -5011,7 +5011,7 @@
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C34"
 			(at 1.25 -4.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "50038f6e-1697-4ebb-848e-7d9b1401137f")
 			(effects
 				(font
@@ -6556,7 +6556,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R501"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "12812f66-3c30-4699-8bce-b984ff660840")
 			(effects
 				(font
@@ -6740,7 +6740,7 @@
 		(tags "CP Radial series Radial pin pitch 5.00mm diameter 10mm height 16mm Electrolytic Capacitor")
 		(property "Reference" "C31"
 			(at 2.5 -6.25 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "ea765539-3ba5-4832-a9bd-6214837267ae")
 			(effects
 				(font
@@ -8845,7 +8845,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C501"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "d1e89700-bcbd-48ee-839d-a4ed346d84fb")
 			(effects
 				(font
@@ -9029,7 +9029,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C204"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c3335ad8-ed5c-4bc0-8ffd-bc179402f03c")
 			(effects
 				(font
@@ -9213,7 +9213,7 @@
 		(tags "connector wire 2.5sqmm")
 		(property "Reference" "J3"
 			(at 0 -3.2 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "fc536bc5-c6a3-4e81-ae59-944f99dac4c7")
 			(effects
 				(font
@@ -9344,7 +9344,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C216"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "107fd4a5-cbc5-42e5-a895-5bf5427b7423")
 			(effects
 				(font
@@ -9528,7 +9528,7 @@
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q5"
 			(at 0 -2.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "0dd5b317-1350-43e4-a0c7-7caba3e48806")
 			(effects
 				(font
@@ -9949,7 +9949,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R152"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "10f9d902-1a74-4d6f-89c5-b681004f32ed")
 			(effects
 				(font
@@ -10133,7 +10133,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R109"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "2e6abd96-ce72-4013-80f4-96dc7c1d2145")
 			(effects
 				(font
@@ -10317,7 +10317,7 @@
 		(tags "connector wire 2.5sqmm")
 		(property "Reference" "J4"
 			(at 0 -3.2 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f07444f8-a6ca-4468-a128-a81490781d30")
 			(effects
 				(font
@@ -10448,7 +10448,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C509"
 			(at 0 -1.85 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "de69ccc6-5f8f-4659-b17f-f76fa6c28354")
 			(effects
 				(font
@@ -10632,7 +10632,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C16"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "fdedcb7a-afd8-495d-ae49-59d220aac741")
 			(effects
 				(font
@@ -10816,7 +10816,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R111"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "af5771ea-cefe-4888-9330-e63ffea70876")
 			(effects
 				(font
@@ -11000,7 +11000,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C211"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "06334196-b41e-4be5-a3ef-6f2f7ea8f083")
 			(effects
 				(font
@@ -11184,7 +11184,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R146"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "241b3d5d-0724-4172-8ec3-bf34fcdb8c84")
 			(effects
 				(font
@@ -11368,7 +11368,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R144"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "9b153c04-4506-4bd4-9874-722f5e5e05ec")
 			(effects
 				(font
@@ -11552,7 +11552,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R127"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "60dadfca-cf3f-4a19-b5cb-5120a2a8b6e5")
 			(effects
 				(font
@@ -11736,7 +11736,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C201"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "9780f135-7aed-4165-ae08-e4627cf8bfcb")
 			(effects
 				(font
@@ -11920,7 +11920,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C213"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c37039f9-f39b-4252-9d50-2c5d5d5934b2")
 			(effects
 				(font
@@ -12104,7 +12104,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R115"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c3858533-c0d7-4911-8397-0e4fcbfb3d9c")
 			(effects
 				(font
@@ -12288,7 +12288,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C20"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f10347ef-3a8a-492c-8ca3-ef7c0efe5ee8")
 			(effects
 				(font
@@ -12472,7 +12472,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C115"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7a3ba756-a472-4e10-8057-66ebac7b6368")
 			(effects
 				(font
@@ -12656,7 +12656,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R138"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "56b62ece-2eeb-4ee9-8ec2-a77ce67c6edf")
 			(effects
 				(font
@@ -12840,7 +12840,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R119"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "b468b847-7016-4254-8a74-d4bb47ee96fc")
 			(effects
 				(font
@@ -13024,7 +13024,7 @@
 		(tags "SOD-123")
 		(property "Reference" "D5"
 			(at 0 -2 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "30143b17-27f6-4a4c-9ac0-a1c6369e1ca5")
 			(effects
 				(font
@@ -13327,7 +13327,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
 			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "8cb55550-e5cd-4b6e-b867-ef17e988cdac")
 			(effects
 				(font
@@ -13511,7 +13511,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "8422fd1e-ead9-4882-9ef5-7c72b3773ef7")
 			(effects
 				(font
@@ -13695,7 +13695,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R107"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f64f2530-b3bc-4c97-8600-80fbafceb31e")
 			(effects
 				(font
@@ -13879,7 +13879,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C205"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "fd8a7f39-ad60-4aa3-b328-817a4b50167a")
 			(effects
 				(font
@@ -14063,7 +14063,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C207"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "965f1d1a-5b37-45c2-bb05-369c8b3e4ef4")
 			(effects
 				(font
@@ -14247,7 +14247,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R147"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7cc6f5cd-bb6b-4c09-9e2b-80ab617fcad0")
 			(effects
 				(font
@@ -14431,7 +14431,7 @@
 		(tags "Diode SMA (DO-214AC) Handsoldering")
 		(property "Reference" "D7"
 			(at 0 -2.5 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "296011ce-314e-4a92-b832-539a624b3327")
 			(effects
 				(font
@@ -14724,7 +14724,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R118"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "fdd7d8c1-f987-4e27-bd8a-47d22a11b411")
 			(effects
 				(font
@@ -14908,7 +14908,7 @@
 		(tags "2.4 GHz Wi-Fi and Bluetooth module ESP32-D0WD Espressif ESP32-WROOM-32E")
 		(property "Reference" "U101"
 			(at -10.61 8.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "580df2b7-2ecb-4806-a088-bc638b044437")
 			(effects
 				(font
@@ -16094,7 +16094,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C101"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "733f5c06-2139-4c26-a32e-963873036153")
 			(effects
 				(font
@@ -16278,7 +16278,7 @@
 		(tags "SOIC SO 16-pin-NSOP R-16 R-16-S D0016A M2B SO16 SOT109-1 751B SOIC_N narrow")
 		(property "Reference" "U10"
 			(at 0 -5.9 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "62cb0805-1434-451e-a116-14a7fa9431b2")
 			(effects
 				(font
@@ -16621,7 +16621,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U10-QF-Pad5)")
 			(pinfunction "QF_5")
-			(pintype "tri_state")
+			(pintype "tri_state+no_connect")
 			(uuid "ad4e8653-874b-4dc8-ab40-3373bd78880d")
 		)
 		(pad "6" smd roundrect
@@ -16631,7 +16631,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U10-QG-Pad6)")
 			(pinfunction "QG_6")
-			(pintype "tri_state")
+			(pintype "tri_state+no_connect")
 			(uuid "bedab7e3-0170-4d92-b7ab-611f388e9893")
 		)
 		(pad "7" smd roundrect
@@ -16641,7 +16641,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U10-QH-Pad7)")
 			(pinfunction "QH_7")
-			(pintype "tri_state")
+			(pintype "tri_state+no_connect")
 			(uuid "0756f8bd-6cef-48d6-9685-4b09e3f8a252")
 		)
 		(pad "8" smd roundrect
@@ -16755,7 +16755,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C102"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "a68612e5-3c18-4003-bbae-bc5a5c3a65a9")
 			(effects
 				(font
@@ -16939,7 +16939,7 @@
 		(tags "TSSOP SO")
 		(property "Reference" "U202"
 			(at 0 -4.2 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "111b8a30-f822-4002-ad9c-9d2a175b8ae3")
 			(effects
 				(font
@@ -17429,7 +17429,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "C5"
 			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "383f1b1e-d5c0-4fdb-ba6c-c1b8fc545979")
 			(effects
 				(font
@@ -17613,7 +17613,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R141"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "92918a38-dca4-41a6-8818-97c60fe3c717")
 			(effects
 				(font
@@ -17797,7 +17797,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R116"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "83258374-d1f6-4955-b541-be8691602edd")
 			(effects
 				(font
@@ -17981,7 +17981,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R502"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "9352939c-8d84-48fe-93ee-01cce4e2ffca")
 			(effects
 				(font
@@ -18165,7 +18165,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R104"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "bf4b4921-690e-4a7c-acbc-5da87ea37ebd")
 			(effects
 				(font
@@ -18349,7 +18349,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R126"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "a50419ce-13c7-4d24-927c-6db4fec1c0a7")
 			(effects
 				(font
@@ -18533,7 +18533,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C110"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "38ab33e5-b82c-49b9-9113-de85dd8ff658")
 			(effects
 				(font
@@ -18717,7 +18717,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R142"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "fb57e057-33af-4772-9442-fddae145b91e")
 			(effects
 				(font
@@ -18901,7 +18901,7 @@
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U103"
 			(at 0 -2.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "76851f30-182e-4287-91f4-2fae6d9893f0")
 			(effects
 				(font
@@ -19327,7 +19327,7 @@
 		(at 102.545 130.585)
 		(property "Reference" "L501"
 			(at -1.268 -3.9064 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "982df447-4c4f-4b2e-9d38-e520e156c1ba")
 			(effects
 				(font
@@ -19588,7 +19588,7 @@
 		(tags "Bourns SRN6028 SMD inductor")
 		(property "Reference" "L7"
 			(at 0 4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "8776c7a4-618c-4278-87d9-5b2c5f9a7117")
 			(effects
 				(font
@@ -19882,7 +19882,7 @@
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q3"
 			(at 0 -2.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e259dd27-0a55-44fe-9edf-830ac7cfb30d")
 			(effects
 				(font
@@ -20303,7 +20303,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C401"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "42dae36a-bb60-4de6-9127-23cf5c4b3e0e")
 			(effects
 				(font
@@ -20487,7 +20487,7 @@
 		(tags "flat-wire shielded Würth SMT")
 		(property "Reference" "L6"
 			(at 0 -7.35 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e15b0358-2108-4ac4-a669-0537e31f8c0e")
 			(effects
 				(font
@@ -20822,7 +20822,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R148"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "da1d0763-aebf-489a-bbbb-570e066106b6")
 			(effects
 				(font
@@ -21006,7 +21006,7 @@
 		(tags "Diode SMA (DO-214AC) Handsoldering")
 		(property "Reference" "D6"
 			(at 0 -2.5 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "d7337b5d-f6b7-44e9-bfed-be2bcec5b429")
 			(effects
 				(font
@@ -21299,7 +21299,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
 			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "3ddbe53d-65f0-4187-9fb4-59d85ee25b56")
 			(effects
 				(font
@@ -21483,7 +21483,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R136"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7a735072-62ee-4a11-8ee9-02cecd624817")
 			(effects
 				(font
@@ -21667,7 +21667,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C206"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "0a72aaa6-c7b5-4395-8155-ca5b3f67ed74")
 			(effects
 				(font
@@ -21851,7 +21851,7 @@
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
 			(at 0 -2.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "302db24a-062f-4967-9383-8fa19a779ee2")
 			(effects
 				(font
@@ -22272,7 +22272,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R112"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "cbc47e32-3f10-417b-aa9d-668c57c0c492")
 			(effects
 				(font
@@ -22456,7 +22456,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R151"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "38e65d0c-9f52-4c69-89af-9af925ad8fb1")
 			(effects
 				(font
@@ -22638,7 +22638,7 @@
 		(at 102.545 123.035)
 		(property "Reference" "L3"
 			(at -1.268 -3.9064 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "6611a619-8c7e-4ff2-b88b-319ea241c9f7")
 			(effects
 				(font
@@ -22899,7 +22899,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R503"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "28cf439d-5596-41c1-a3a7-1056af055563")
 			(effects
 				(font
@@ -23083,7 +23083,7 @@
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C35"
 			(at 1.25 -4.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "583d100e-4d29-4f38-ab4a-cabeb62c8bff")
 			(effects
 				(font
@@ -24628,7 +24628,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C11"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "15627ee2-7cb0-461c-9499-118dd8d33f33")
 			(effects
 				(font
@@ -24812,7 +24812,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C117"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "63035ab1-0d95-4bb6-aafc-32cd6d23eb1d")
 			(effects
 				(font
@@ -24996,7 +24996,7 @@
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U201"
 			(at 0 -2.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "d8c20274-b482-4e9e-954a-d829726bb91c")
 			(effects
 				(font
@@ -25424,7 +25424,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R106"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "9adaecca-1a74-4691-a8c0-ef9055343594")
 			(effects
 				(font
@@ -25608,7 +25608,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R123"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7b6af799-5494-4d0b-aab6-0d9b703cc6c4")
 			(effects
 				(font
@@ -25792,7 +25792,7 @@
 		(tags "D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426")
 		(property "Reference" "U6"
 			(at 0 -6.65 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7e732673-2425-4918-9fcc-bc57e3e8313c")
 			(effects
 				(font
@@ -26246,7 +26246,7 @@
 		(tags "CP Radial series Radial pin pitch 5.00mm diameter 10mm height 16mm Electrolytic Capacitor")
 		(property "Reference" "C28"
 			(at 2.5 -6.25 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e1817f0b-3438-46d4-9329-7f6df8f592b6")
 			(effects
 				(font
@@ -28351,7 +28351,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C303"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "81734629-0bd8-41de-b8ce-d827e81da26e")
 			(effects
 				(font
@@ -28535,7 +28535,7 @@
 		(tags "connector wire 1sqmm")
 		(property "Reference" "J2"
 			(at 2.7 -2.58 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "0071514a-b936-4297-8f92-33e026301680")
 			(effects
 				(font
@@ -28699,7 +28699,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C9"
 			(at 0 -1.85 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7bb45ec2-67a0-4341-8a9b-a5f2422b7538")
 			(effects
 				(font
@@ -28883,7 +28883,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R504"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "670c56e3-7f10-4f19-a6ec-ee4f31014161")
 			(effects
 				(font
@@ -29067,7 +29067,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C118"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "1b4469da-8d21-444e-ab2e-a79c267092e1")
 			(effects
 				(font
@@ -29246,10 +29246,11 @@
 	(footprint "External_Parts:SOP65P810X120-33N"
 		(layer "F.Cu")
 		(uuid "71fad9d7-5cb2-4325-a177-fa720d19ed87")
-		(at 130.395 123.035)
+		(at 328 234)
 		(property "Reference" "U501"
 			(at -0.61514 -7.2972 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
+			(hide yes)
 			(uuid "fa7efe14-a673-416c-9f65-848ea0998b6a")
 			(effects
 				(font
@@ -29259,8 +29260,9 @@
 			)
 		)
 		(property "Value" "TPA3118D2DAPR"
-			(at 7.11331 6.4856 0)
+			(at 0 7 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "2135b7d1-b452-4653-9cb2-7b4cbaa890be")
 			(effects
 				(font
@@ -30445,7 +30447,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C22"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c2167b07-bf59-4b3a-a6ca-d06041607238")
 			(effects
 				(font
@@ -30629,7 +30631,7 @@
 		(tags "D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426")
 		(property "Reference" "U5"
 			(at 0 -6.65 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "6748ffb6-684e-4202-8815-8a3c8d5661ab")
 			(effects
 				(font
@@ -31083,7 +31085,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C202"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "36594571-f00b-4938-a07a-0e61417daf66")
 			(effects
 				(font
@@ -31267,7 +31269,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C113"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e73a57fc-0a3d-444d-9de2-e0348715bbde")
 			(effects
 				(font
@@ -31451,7 +31453,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R302"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "88862695-008a-4297-95af-c2f1dbb9ad6b")
 			(effects
 				(font
@@ -31635,7 +31637,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
 			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "8a7bc3d3-c524-4935-93e0-2a1222b764bc")
 			(effects
 				(font
@@ -31819,7 +31821,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C210"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "3d06f6a3-8b5f-4e50-b05c-42ad78d09cc3")
 			(effects
 				(font
@@ -32003,7 +32005,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R145"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f0ad2a85-2bcd-4f0f-824a-163018f95d94")
 			(effects
 				(font
@@ -32187,7 +32189,7 @@
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C27"
 			(at 1.25 -4.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "194cdbc3-a582-4157-a49b-e01cec5694fd")
 			(effects
 				(font
@@ -33732,7 +33734,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R103"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "6583ed18-8a47-4fbf-b5e1-8e82bcd04846")
 			(effects
 				(font
@@ -33916,7 +33918,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C7"
 			(at 0 -1.85 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "fbfabacd-759f-42e9-94de-a125fa07acf4")
 			(effects
 				(font
@@ -34100,7 +34102,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R128"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "18950267-b780-412e-8862-2193998d5886")
 			(effects
 				(font
@@ -34284,7 +34286,7 @@
 		(tags "connector wire 1sqmm")
 		(property "Reference" "Speaker_Rear1"
 			(at 8.1 -2.58 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "22e23e14-d175-4fae-9ca2-ad3a1d56d698")
 			(effects
 				(font
@@ -34514,7 +34516,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "b4c00414-40f9-4db3-88d1-416a06a412cb")
 			(effects
 				(font
@@ -34698,7 +34700,7 @@
 		(tags "capacitor tantalum")
 		(property "Reference" "C114"
 			(at 0 -2.35 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f7f27e3d-8bf4-48ed-acca-c8044717966c")
 			(effects
 				(font
@@ -34931,7 +34933,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C503"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "10c42cda-d6a2-4712-888f-3698669bdcfe")
 			(effects
 				(font
@@ -35115,7 +35117,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C12"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "1ae89421-e0fe-4431-9c79-90300c807eb3")
 			(effects
 				(font
@@ -35299,7 +35301,7 @@
 		(tags "Diode SMA (DO-214AC) Handsoldering")
 		(property "Reference" "D2"
 			(at 0 -2.5 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "5278e940-8446-4042-8e7d-0a6e9756e813")
 			(effects
 				(font
@@ -35592,7 +35594,7 @@
 		(tags "Through hole socket strip THT 1x06 2.54mm single row")
 		(property "Reference" "J108"
 			(at 0 -2.77 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "bf7b55d8-8237-4160-af8f-9f2a7d2fecc9")
 			(effects
 				(font
@@ -35932,7 +35934,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C208"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "376afe89-4425-4e3b-aca6-cc7e3a438936")
 			(effects
 				(font
@@ -36116,7 +36118,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R133"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "467d4a0d-bff2-4725-b0be-e63f2519d37b")
 			(effects
 				(font
@@ -36300,7 +36302,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C103"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "fb4ea2df-b7a3-46dc-a95c-f5f527dd0458")
 			(effects
 				(font
@@ -36484,7 +36486,7 @@
 		(tags "SMD DIP DIL PDIP SMDIP 2.54mm 9.53mm 375mil")
 		(property "Reference" "U9"
 			(at 0 -3.6 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "8736e725-fabf-4016-8a18-44b070716519")
 			(effects
 				(font
@@ -36759,7 +36761,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R150"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "bdbd8045-7482-410d-8728-008980fc267b")
 			(effects
 				(font
@@ -36943,7 +36945,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R131"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7e2f9984-9922-4dfb-af80-02f3117a6e22")
 			(effects
 				(font
@@ -37127,7 +37129,7 @@
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U301"
 			(at 0 -2.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "54c37566-ee14-4a62-8147-93ec75cd3086")
 			(effects
 				(font
@@ -38462,7 +38464,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C107"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "290daa23-b5ff-4478-ae92-eac986d49b4d")
 			(effects
 				(font
@@ -38644,7 +38646,7 @@
 		(at 118.6 98.925)
 		(property "Reference" "Y101"
 			(at 0.032 -1.7064 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "bd1f7513-50c0-4c00-add0-7416279aa3ca")
 			(effects
 				(font
@@ -39025,7 +39027,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R135"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f5b6c51f-1957-4f73-a223-c5d4d132e189")
 			(effects
 				(font
@@ -39209,7 +39211,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R201"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "a3e73909-2371-4241-9c53-4643b89b8a44")
 			(effects
 				(font
@@ -39393,7 +39395,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C212"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "60090ae4-6f5c-4361-b000-57764783078a")
 			(effects
 				(font
@@ -39577,7 +39579,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C203"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "5b65a653-ebf6-4e90-8739-e3fcaba14378")
 			(effects
 				(font
@@ -39761,8 +39763,8 @@
 		(property "Reference" "U4"
 			(at 3.81 8.919997 0)
 			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "f9943b18-b028-4f0b-949a-8bfe469dd54e")
+			(layer "F.Fab")
+			(uuid "ecb3ec29-a0f1-45ed-ba07-54587cd3afcd")
 			(effects
 				(font
 					(size 1 1)
@@ -39774,7 +39776,7 @@
 			(at 3.81 8.919997 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "2a16d9b3-ce82-4355-8417-bdfcf5db7aa3")
+			(uuid "be857673-0933-428d-9244-b40ce4cc4379")
 			(effects
 				(font
 					(size 1 1)
@@ -39786,7 +39788,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "83172b19-705c-493c-a5a9-3cf2149d297f")
+			(uuid "0f6bff5e-d014-4f70-94d1-184035a884c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39797,7 +39799,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0863703b-2f97-47fe-a2ba-8200123f336b")
+			(uuid "9b270ac7-53ab-4997-a6ae-ae23e4f3c27f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40149,7 +40151,7 @@
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C29"
 			(at 1.25 -4.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "9cf04b04-1147-4dbb-ad82-613f50e482c9")
 			(effects
 				(font
@@ -41694,7 +41696,7 @@
 		(tags "SOIC SO")
 		(property "Reference" "U401"
 			(at 0 -5.28 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "ee3c3b74-a094-4315-b052-2dd42c64f2c4")
 			(effects
 				(font
@@ -42168,7 +42170,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R134"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f6fe3874-b274-4d18-9787-4d8875664491")
 			(effects
 				(font
@@ -42352,7 +42354,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C105"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "cbb04e5d-de34-4f68-94f5-6223e6e9d2c0")
 			(effects
 				(font
@@ -42536,7 +42538,7 @@
 		(tags "CP Radial series Radial pin pitch 5.00mm diameter 10mm height 16mm Electrolytic Capacitor")
 		(property "Reference" "C26"
 			(at 2.5 -6.25 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e58bfe66-f362-4b58-a587-e0b6598b1232")
 			(effects
 				(font
@@ -44641,7 +44643,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R202"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f69429dd-1ca4-4dbf-89a5-b9fb458ddf75")
 			(effects
 				(font
@@ -44825,7 +44827,7 @@
 		(tags "Switch")
 		(property "Reference" "S1"
 			(at 5.08 0 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e4519d2f-edb8-4b1f-babc-b956b39d24b0")
 			(effects
 				(font
@@ -44836,7 +44838,7 @@
 		)
 		(property "Value" "SS0750301F040P1A"
 			(at 5.08 0 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "74505fbe-1361-431a-a0ae-e12943dcfc24")
 			(effects
@@ -45184,7 +45186,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C111"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "0a112d42-eaf7-4053-81ab-aa13f57895c5")
 			(effects
 				(font
@@ -45368,7 +45370,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R143"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "75869d66-b63b-416c-a935-a579e60cb6fc")
 			(effects
 				(font
@@ -45552,7 +45554,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C104"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "ff151f0e-46fa-4983-80fb-98e82f54d7d5")
 			(effects
 				(font
@@ -45734,7 +45736,7 @@
 		(at 102.545 107.935)
 		(property "Reference" "L1"
 			(at -1.268 -3.9064 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "4942b49a-4820-49c4-9a95-fd9e4f4be3ce")
 			(effects
 				(font
@@ -45987,6 +45989,114 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3"
+		(layer "F.Cu")
+		(uuid "b9d06747-6696-4fe4-a73d-3ebf7391caba")
+		(at 328 214)
+		(descr "Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M3")
+		(property "Reference" "REF**"
+			(at 0 -4.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73cf76f9-3126-49d4-b530-e5f08dde4e16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_3.2mm_M3"
+			(at 0 4.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3536f314-d19e-4727-9581-90b9e73e0e2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a79284a-4a2c-486b-961b-23834d5b81b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd668cb2-e7d8-4e43-b02c-cbf840f0bf11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5d602fc1-5294-4eda-b7a0-31c77ed95196")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "5514135c-c3f8-4c55-8c45-72b77bbd5f85")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5946b416-9d42-4e75-9a87-3e0f31f548fc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d5b7f7ef-83b5-4ee7-a250-5800791c760b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2e809d03-e2f6-4c30-8be8-cd94097ec352")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ba15802e-0d28-4664-a859-4d296a3c70af")
@@ -45995,7 +46105,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C19"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "60d03729-d0a9-4dad-ac90-73164c76f4b4")
 			(effects
 				(font
@@ -46179,7 +46289,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R129"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e96a39ad-9719-41ab-8b33-9a17c03377bc")
 			(effects
 				(font
@@ -46363,7 +46473,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C21"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "59bb3bc4-5d1b-4c12-9297-aa89fab9d2e9")
 			(effects
 				(font
@@ -46547,7 +46657,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R149"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7028ae3c-8b1c-49e0-a5f9-3aec74c8a17f")
 			(effects
 				(font
@@ -46731,7 +46841,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R114"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "3b79024e-6d64-4746-87f6-e874fc2fd909")
 			(effects
 				(font
@@ -46915,7 +47025,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C504"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "3b6f4c22-3630-4ea6-8d57-54f79be3c497")
 			(effects
 				(font
@@ -47099,7 +47209,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C109"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "5bca2d7b-dbbc-49fa-b0e0-5364fed5d145")
 			(effects
 				(font
@@ -47283,7 +47393,7 @@
 		(property "Reference" "J5"
 			(at 5 -17.9016 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "8a8f75e9-b86f-4c11-a00b-0314a86a8c3c")
 			(effects
 				(font
@@ -47745,7 +47855,7 @@
 		(tags "SOIC SO")
 		(property "Reference" "U2"
 			(at 0 -3.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "d6c068af-180d-482b-9525-2162e2662d83")
 			(effects
 				(font
@@ -48159,7 +48269,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R153"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "fdbb0711-281f-41d3-8904-918064ebd3d4")
 			(effects
 				(font
@@ -48341,7 +48451,7 @@
 		(at 102.545 115.485)
 		(property "Reference" "L2"
 			(at -1.268 -3.9064 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "1a8d2829-1032-43e5-a067-3fa321b78781")
 			(effects
 				(font
@@ -48602,7 +48712,7 @@
 		(tags "Diode SMA (DO-214AC) Handsoldering")
 		(property "Reference" "D4"
 			(at 0 -2.5 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "07d0231f-b92a-4d3f-b302-01146882c529")
 			(effects
 				(font
@@ -48895,7 +49005,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R124"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "1ed50649-ed59-477c-a4ad-412eafe37436")
 			(effects
 				(font
@@ -49079,7 +49189,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
 			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "a55154e0-fa12-400e-9245-ba3944195c35")
 			(effects
 				(font
@@ -49263,7 +49373,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C14"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "78869dae-986e-4fb1-8a37-3f379b6da6ab")
 			(effects
 				(font
@@ -49447,7 +49557,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R110"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "13338d4c-de3a-4159-ace1-2c7fdcebcf3d")
 			(effects
 				(font
@@ -49631,7 +49741,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "C4"
 			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "b4a1bae0-e0c2-46d6-b6b6-83abea6ffb07")
 			(effects
 				(font
@@ -49815,7 +49925,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R120"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "4b7ae935-40e1-47bc-994c-dc4c5343056f")
 			(effects
 				(font
@@ -49999,7 +50109,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "8cf6cae7-e604-4015-a82c-832f3495d928")
 			(effects
 				(font
@@ -50183,7 +50293,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C119"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "34aff58f-0bde-464c-8da5-e1677ee558a0")
 			(effects
 				(font
@@ -50367,7 +50477,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C17"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c2f8b961-6f44-469f-af13-134c12a5ec20")
 			(effects
 				(font
@@ -50551,7 +50661,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R137"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "774d935d-68d0-4b00-a2b8-1779d5522284")
 			(effects
 				(font
@@ -50735,7 +50845,7 @@
 		(tags "D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426")
 		(property "Reference" "U7"
 			(at 0 -6.65 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "3413eb3d-471e-4050-967b-11e956f61af1")
 			(effects
 				(font
@@ -51189,7 +51299,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R121"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c5598232-b895-40e2-8fbe-9b3bf4b1e170")
 			(effects
 				(font
@@ -51373,7 +51483,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C108"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f3d440fa-75f8-4ac5-b29c-e8363dc23a4f")
 			(effects
 				(font
@@ -51557,7 +51667,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C301"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "6c82b35a-3ef1-4154-91a8-f1a69785d353")
 			(effects
 				(font
@@ -51741,7 +51851,7 @@
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C25"
 			(at 1.25 -4.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "9d6a8333-8aad-47b1-bc89-d1fcc4369092")
 			(effects
 				(font
@@ -53286,7 +53396,7 @@
 		(tags "capacitor tantalum")
 		(property "Reference" "C112"
 			(at 0 -2.35 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e36508b2-6f25-4c48-83ad-2062ca437b05")
 			(effects
 				(font
@@ -53519,7 +53629,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R125"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c5bd282d-64b3-466e-a507-6f9c4de8433d")
 			(effects
 				(font
@@ -53703,7 +53813,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R301"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "60a2b7b8-06c5-4192-8d5a-b7abc7677027")
 			(effects
 				(font
@@ -53887,7 +53997,7 @@
 		(tags "flat-wire shielded Würth SMT")
 		(property "Reference" "L8"
 			(at 0 -7.35 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "580bf382-a28c-438f-b93e-cd450e849860")
 			(effects
 				(font
@@ -54222,7 +54332,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C505"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "862baa1b-9b1c-40d0-8303-da1bc77a3af5")
 			(effects
 				(font
@@ -54406,7 +54516,7 @@
 		(tags "flat-wire shielded Würth SMT")
 		(property "Reference" "L5"
 			(at 0 -7.35 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "26bb4029-de9a-48dc-bc3f-060d5271e0c1")
 			(effects
 				(font
@@ -54741,7 +54851,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C8"
 			(at 0 -1.85 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "67959978-d2f6-48d4-83f9-925f3111a018")
 			(effects
 				(font
@@ -54925,7 +55035,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C13"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "56df86e2-72c4-4ff6-b81b-3a12c8239400")
 			(effects
 				(font
@@ -55109,7 +55219,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C116"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "2a98990d-9816-4eb8-a3b2-5359e7779f4f")
 			(effects
 				(font
@@ -55293,7 +55403,7 @@
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
 			(at 0 -2.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "4d9da963-2ca1-48a6-8bd0-96437e1b9209")
 			(effects
 				(font
@@ -55714,7 +55824,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R130"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "2ce49cce-fb5b-4db9-b46f-6f82f25e9324")
 			(effects
 				(font
@@ -55898,7 +56008,7 @@
 		(tags "Diode SMA (DO-214AC) Handsoldering")
 		(property "Reference" "D1"
 			(at 0 -2.5 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "04bc7688-518b-4496-9a7d-6a5098ca1d81")
 			(effects
 				(font
@@ -56191,7 +56301,7 @@
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C32"
 			(at 1.25 -4.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "aa05cf8d-c44b-47bc-8cba-0d01e86224d8")
 			(effects
 				(font
@@ -57736,7 +57846,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R117"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "b29cd8fb-7e17-4ade-af2b-df2399f03d35")
 			(effects
 				(font
@@ -57920,7 +58030,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R108"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "308d67f9-873e-42a7-a800-180c0cadfcb2")
 			(effects
 				(font
@@ -58104,7 +58214,7 @@
 		(tags "D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426")
 		(property "Reference" "U8"
 			(at 0 -6.65 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f942795f-9bf4-4eab-bc2b-b5d5acc7a413")
 			(effects
 				(font
@@ -58558,7 +58668,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C15"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "53a7b309-7d94-4c25-8a71-c1cc5702b867")
 			(effects
 				(font
@@ -58742,7 +58852,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R122"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "3d953a62-59c6-4a7c-aed8-7bba4263f346")
 			(effects
 				(font
@@ -58926,7 +59036,7 @@
 		(tags "connector wire 1sqmm")
 		(property "Reference" "Speaker_Front1"
 			(at 8.1 -2.58 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c217858b-ce5b-434f-ae13-9792dd9fcf76")
 			(effects
 				(font
@@ -59156,7 +59266,7 @@
 		(tags "flat-wire shielded Würth SMT")
 		(property "Reference" "L4"
 			(at 0 -7.35 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "03113cc8-7a6a-4615-ab40-b2bec271358a")
 			(effects
 				(font
@@ -59483,6 +59593,114 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3"
+		(layer "F.Cu")
+		(uuid "f6f4e159-63df-40da-b2ae-54215ef760ee")
+		(at 328 254)
+		(descr "Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M3")
+		(property "Reference" "REF**"
+			(at 0 -4.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47f97959-5e79-41b5-aea2-20719d79f1d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_3.2mm_M3"
+			(at 0 4.15 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4b38d1a-a18b-4630-8dcf-45002cfec0ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b67b7f5-865b-410b-807a-7fa2b671abb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ddefbc6-3284-494b-a797-616fc7d0ae21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bd9fdbbf-d5aa-445d-a367-6d0e9b273c9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "49276180-91e9-4050-9d05-150a8dc00f6c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "7e157942-8d03-4b35-af89-7674592beb82")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e6925d2c-77da-42f7-a90a-10032e5d408f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "041df011-abd7-4702-8a93-7e58a01a3d73")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Package_SO:TSSOP-10_3x3mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "f8c646f4-75a6-4f5e-8c63-c4cedc80619e")
@@ -59491,7 +59709,7 @@
 		(tags "TSSOP SO Texas_DGS0010A Texas_VSSOP-10 NXP_SOT552-1 MSOP-10_3x3mm_P0.5mm VSSOP-10_3x3mm_P0.5mm")
 		(property "Reference" "U1"
 			(at 0 -2.45 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "ae95f460-6aff-404a-ac83-5e12fd11fbae")
 			(effects
 				(font
@@ -59919,7 +60137,7 @@
 		(tags "CP Radial series Radial pin pitch 5.00mm diameter 10mm height 16mm Electrolytic Capacitor")
 		(property "Reference" "C33"
 			(at 2.5 -6.25 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c15c2abb-10e9-4611-aef0-fd03fa83b15f")
 			(effects
 				(font
@@ -62024,7 +62242,7 @@
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q4"
 			(at 0 -2.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e206c940-c439-4929-8ad2-8bc19d6f9a3d")
 			(effects
 				(font
@@ -62445,7 +62663,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "C6"
 			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "ca0f4ae7-d993-40d2-be9f-ee54bbf16552")
 			(effects
 				(font
@@ -62629,7 +62847,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R101"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "ed9d815f-6c09-4656-8d8b-ce4e6e1f9d1a")
 			(effects
 				(font
@@ -62813,7 +63031,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R102"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "a2a67eae-8be3-4291-a88d-1b82affa8fe5")
 			(effects
 				(font
@@ -62997,7 +63215,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
 			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "42912b83-f7ad-4c93-8df8-5fd528548234")
 			(effects
 				(font
@@ -63181,7 +63399,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R113"
 			(at 0 -1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "50358324-ffd2-4916-9ffb-d1f567bac025")
 			(effects
 				(font
@@ -63365,7 +63583,7 @@
 		(tags "TQFP QFP")
 		(property "Reference" "U104"
 			(at 0 -5.85 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "a214ad3b-bada-496c-a174-921158228894")
 			(effects
 				(font
@@ -64206,7 +64424,7 @@
 		(tags "Switch")
 		(property "Reference" "S2"
 			(at 5.08 0 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "0204b8fe-757a-4d53-9391-f225ad9c04b1")
 			(effects
 				(font
@@ -64217,7 +64435,7 @@
 		)
 		(property "Value" "SS0750301F040P1A"
 			(at 5.08 0 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "065e272c-ce07-454f-8c55-9543c91950a0")
 			(effects
@@ -64555,6 +64773,65 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(gr_rect
+		(start 321 209)
+		(end 335 259)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1f6b90b6-d000-492d-89dc-fffdc51a6de7")
+	)
+	(gr_line
+		(start 321 228.5)
+		(end 335 228.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "166a5232-b555-4471-b812-8a6e9f9dbd3e")
+	)
+	(gr_line
+		(start 335 219)
+		(end 321 219)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "80401011-4eb2-43dc-990e-17aa5a645afe")
+	)
+	(gr_line
+		(start 335 239.5)
+		(end 321 239.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8b03eb1d-7d3f-43a7-8c68-213cf43d83c7")
+	)
+	(gr_line
+		(start 335 249)
+		(end 321 249)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "40dfa8f8-45ca-4de9-993e-5d5da81357e8")
+	)
+	(group ""
+		(uuid "481f0923-dad4-4ceb-8224-908000f43866")
+		(members "166a5232-b555-4471-b812-8a6e9f9dbd3e" "1f6b90b6-d000-492d-89dc-fffdc51a6de7"
+			"40dfa8f8-45ca-4de9-993e-5d5da81357e8" "71fad9d7-5cb2-4325-a177-fa720d19ed87"
+			"80401011-4eb2-43dc-990e-17aa5a645afe" "8b03eb1d-7d3f-43a7-8c68-213cf43d83c7"
+			"b9d06747-6696-4fe4-a73d-3ebf7391caba" "f6f4e159-63df-40da-b2ae-54215ef760ee"
 		)
 	)
 	(embedded_fonts no)
