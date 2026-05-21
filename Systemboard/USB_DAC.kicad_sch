@@ -3744,6 +3744,16 @@
 		)
 		(uuid "c055e9bd-4d29-47a8-937a-e6cbb06de995")
 	)
+	(label "USB_DAC_3V3"
+		(at 185.42 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f375dc5f-f4b3-413f-b850-f00778377e8c")
+	)
 	(hierarchical_label "USB_DAC_EN"
 		(shape input)
 		(at 77.47 30.48 180)
