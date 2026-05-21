@@ -15647,6 +15647,190 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "42c5646a-5f9c-47d7-b6f5-3f1816dfbf8e")
+		(at 359.5 67.4025 -90)
+		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor handsolder")
+		(property "Reference" "R155"
+			(at 0 -1.17 90)
+			(layer "F.Fab")
+			(uuid "3faf9ce5-bddc-4aae-afad-3acdde4179ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 0 1.17 90)
+			(layer "F.Fab")
+			(uuid "40b158d9-5838-4d86-ad05-144093c22147")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e8a9fb3-fe59-46da-957d-73ec165f6b3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21d4b601-8711-4c25-a1fc-f8e657d37798")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "117781a0-29d5-4d23-9e9f-e54c07e250ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part #" "P1.50KLCT-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fb87efb-3e21-4022-aa12-6d5f9c347698")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25900"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "068ec56c-360a-46a3-a653-581029b5eaa5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/60a7bbcf-cdb5-42ef-b224-050c5add5d3c/13ba2a9f-f22e-41a3-b8af-34ab86c6301c")
+		(sheetname "/USB Charger/")
+		(sheetfile "Shunt.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.167621 0.38)
+			(end 0.167621 0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "84693471-5aea-4517-82f1-a56478d92cac")
+		)
+		(fp_line
+			(start -0.167621 -0.38)
+			(end 0.167621 -0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "626adf07-9581-459a-9c07-fc2ffe3ff743")
+		)
+		(fp_rect
+			(start -1.11 -0.47)
+			(end 1.11 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c2793cce-1941-40f5-bd2a-498737e0aaf8")
+		)
+		(fp_rect
+			(start -0.525 -0.27)
+			(end 0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c946d35d-d639-4726-9fee-ae3ce1e0b026")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "f419e3f8-1350-4424-a2e6-5a343bb586cc")
+			(effects
+				(font
+					(size 0.26 0.26)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5975 0 270)
+			(size 0.715 0.64)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(U1-VS)")
+			(pintype "passive")
+			(uuid "93b93817-fb5d-4102-89fc-71207e7689e3")
+		)
+		(pad "2" smd roundrect
+			(at 0.5975 0 270)
+			(size 0.715 0.64)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/CHARGER_SHUNT_SDA")
+			(pintype "passive")
+			(uuid "080b08ce-aca6-4718-ad67-fd0afc6c897c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "45a08195-6b57-4328-9f32-c36607158c3e")
@@ -31028,14 +31212,14 @@
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
-		(uuid "7e83e4d8-2f0d-4ac9-8ba6-c5590b1e6896")
-		(at 359.5 67 90)
+		(uuid "7ecd18b1-39cd-4eab-950f-5b2c966cd6a4")
+		(at 358 67.9025 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
-		(property "Reference" "R302"
+		(property "Reference" "R154"
 			(at 0 -1.17 90)
 			(layer "F.Fab")
-			(uuid "88862695-008a-4297-95af-c2f1dbb9ad6b")
+			(uuid "10b00ef4-1fcf-4839-a25a-93ae3a7852db")
 			(effects
 				(font
 					(size 1 1)
@@ -31043,10 +31227,10 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4k7"
 			(at 0 1.17 90)
 			(layer "F.Fab")
-			(uuid "c2942afd-cf80-4253-9eca-4deb2dfa55e6")
+			(uuid "ec9043e8-a972-4b9b-b6b5-189f246a0458")
 			(effects
 				(font
 					(size 1 1)
@@ -31058,7 +31242,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "82fcdb8f-9c3c-40de-a35b-bbe5b34aeff3")
+			(uuid "1c4a0f31-bdb1-4211-acc6-6d20fc6ea524")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31069,7 +31253,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d92602e-5042-48c6-ab69-45a8138c37e9")
+			(uuid "cea83b9e-7a83-493e-8d1a-72c5d0dd61f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31080,7 +31264,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7a1fd3c3-ba73-487b-abde-351012745b50")
+			(uuid "0e78ecbf-8213-44a0-878f-f4571a690567")
 			(effects
 				(font
 					(size 1 1)
@@ -31088,12 +31272,12 @@
 				)
 			)
 		)
-		(property "DigiKey Part #" "1276-3431-1-ND"
-			(at 0 0 90)
+		(property "DigiKey Part #" "P1.50KLCT-ND"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c40fb63-e78c-4e62-8918-b8fb13fe5bf4")
+			(uuid "9f640175-f2a2-49ec-98ba-96fe845e1aa5")
 			(effects
 				(font
 					(size 1 1)
@@ -31101,12 +31285,12 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C25744"
-			(at 0 0 90)
+		(property "JLCPCB Part #" "C25900"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60dc86cd-0684-4970-ba5b-4151cb59d20b")
+			(uuid "c4baab4d-67aa-4876-a706-3b1161b58f6b")
 			(effects
 				(font
 					(size 1 1)
@@ -31115,7 +31299,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/60a7bbcf-cdb5-42ef-b224-050c5add5d3c/6b10abef-5ec7-4cdb-a2fa-933353e65539")
+		(path "/60a7bbcf-cdb5-42ef-b224-050c5add5d3c/7b093726-5426-4fb9-841a-346e39387c6e")
 		(sheetname "/USB Charger/")
 		(sheetfile "Shunt.kicad_sch")
 		(units
@@ -31127,16 +31311,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.167621 -0.38)
-			(end 0.167621 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1888b819-d7ac-4cc6-b8a4-923d85819015")
-		)
-		(fp_line
 			(start -0.167621 0.38)
 			(end 0.167621 0.38)
 			(stroke
@@ -31144,7 +31318,17 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8efbe87f-34f0-4187-b001-a329406ac9af")
+			(uuid "2dfb3fee-03d9-4753-b9f0-1f93792cb66f")
+		)
+		(fp_line
+			(start -0.167621 -0.38)
+			(end 0.167621 -0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c98ecaea-69ed-4486-a589-87b15a8c6d34")
 		)
 		(fp_rect
 			(start -1.11 -0.47)
@@ -31155,7 +31339,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "dc5df5a8-d649-427b-8aec-9fd121789a1f")
+			(uuid "aaa6a825-517d-43f5-aa77-744b149518cf")
 		)
 		(fp_rect
 			(start -0.525 -0.27)
@@ -31166,12 +31350,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "1cbd0f51-ffe4-4a0c-9a12-71b369ba5e2e")
+			(uuid "4cd8ca9f-d6ba-4340-8496-e0ca4b038e39")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "e80473c4-ae9d-43f1-b5e7-5cad7fa3fd4f")
+			(uuid "1004e2a2-ea54-4c69-b176-beb17f456b66")
 			(effects
 				(font
 					(size 0.26 0.26)
@@ -31180,22 +31364,22 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.5975 0 90)
-			(size 0.715 0.64)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "/CHARGER_SHUNT_SDA")
-			(pintype "passive")
-			(uuid "f1fca03b-26bb-4db5-b557-8f67b1951812")
-		)
-		(pad "2" smd roundrect
-			(at 0.5975 0 90)
+			(at -0.5975 0 270)
 			(size 0.715 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U1-VS)")
 			(pintype "passive")
-			(uuid "c4ab1855-1c91-45c5-bc7a-7b030e8863dc")
+			(uuid "5774f723-ef5e-4947-af60-38d76f37a10c")
+		)
+		(pad "2" smd roundrect
+			(at 0.5975 0 270)
+			(size 0.715 0.64)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/CHARGER_SHUNT_SCL")
+			(pintype "passive")
+			(uuid "40a6bfa0-1f0a-40b4-8510-e6c661839561")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
@@ -53305,190 +53489,6 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-		(layer "F.Cu")
-		(uuid "e2b027e4-f4ff-4f89-9722-64542c4b94c4")
-		(at 358 67 90)
-		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
-		(tags "resistor handsolder")
-		(property "Reference" "R301"
-			(at 0 -1.17 90)
-			(layer "F.Fab")
-			(uuid "60a2b7b8-06c5-4192-8d5a-b7abc7677027")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 0 1.17 90)
-			(layer "F.Fab")
-			(uuid "1fa7e957-7f71-46f2-acae-5de83a538faa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "41ae4ab0-d799-4b90-815b-39f6a5600685")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d548e045-125c-45a4-86c5-b204d895eeef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e3d3885d-d287-487b-b315-799a939e3209")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DigiKey Part #" "1276-3431-1-ND"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "70e22897-6a00-44f0-9bf5-85f6834234de")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C25744"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0f1c52f1-7a41-4f43-9f32-3d9734321d88")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "R_*")
-		(path "/60a7bbcf-cdb5-42ef-b224-050c5add5d3c/19a81851-1e59-426e-918a-4ad0c0c0a644")
-		(sheetname "/USB Charger/")
-		(sheetfile "Shunt.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.167621 -0.38)
-			(end 0.167621 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1a1ec60c-6f22-432c-8c9c-1edb88bf7d72")
-		)
-		(fp_line
-			(start -0.167621 0.38)
-			(end 0.167621 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5a0f0653-ea0b-4961-954a-db8397316092")
-		)
-		(fp_rect
-			(start -1.11 -0.47)
-			(end 1.11 0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "a53fcbba-9657-4d6d-8ac9-8c4c38bcc8a6")
-		)
-		(fp_rect
-			(start -0.525 -0.27)
-			(end 0.525 0.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "6ae14e32-e204-4fc7-a27f-9635c0133a65")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "f1fd8c5e-925a-4566-b83b-aa8e6ce82d37")
-			(effects
-				(font
-					(size 0.26 0.26)
-					(thickness 0.04)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -0.5975 0 90)
-			(size 0.715 0.64)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "/CHARGER_SHUNT_SCL")
-			(pintype "passive")
-			(uuid "7391f8a5-2711-4cda-be62-a045d65eeeef")
-		)
-		(pad "2" smd roundrect
-			(at 0.5975 0 90)
-			(size 0.715 0.64)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "Net-(U1-VS)")
-			(pintype "passive")
-			(uuid "1dc2e8f6-8c38-47d2-bfcc-7adef9a14cff")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Inductor_SMD:L_Wuerth_HCI-1365"
 		(layer "F.Cu")
 		(uuid "e31ca93f-b528-452d-b713-8acdd842924a")
@@ -64315,11 +64315,11 @@
 		)
 	)
 	(group ""
-		(uuid "9b43a5ba-ec27-46ed-9807-e6927db3623b")
+		(uuid "9b78081f-13f0-4e9f-a6fa-b580c3bfd5d1")
 		(members "0671811d-7f08-4c1d-81d4-38e3dc55d66d" "0f73532c-b3b8-4385-ae73-0066597dcadd"
-			"6a10997a-816c-4f80-b0a6-284202d63ef8" "7e83e4d8-2f0d-4ac9-8ba6-c5590b1e6896"
-			"95b34e39-395b-4c56-b277-22aec886abab" "dcc9216a-1377-409a-a669-ddba4ebb8e42"
-			"e2b027e4-f4ff-4f89-9722-64542c4b94c4" "f8c646f4-75a6-4f5e-8c63-c4cedc80619e"
+			"42c5646a-5f9c-47d7-b6f5-3f1816dfbf8e" "6a10997a-816c-4f80-b0a6-284202d63ef8"
+			"7ecd18b1-39cd-4eab-950f-5b2c966cd6a4" "95b34e39-395b-4c56-b277-22aec886abab"
+			"dcc9216a-1377-409a-a669-ddba4ebb8e42" "f8c646f4-75a6-4f5e-8c63-c4cedc80619e"
 		)
 	)
 	(group ""

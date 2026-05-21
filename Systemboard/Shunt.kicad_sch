@@ -2860,6 +2860,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 232.41 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13ba2a9f-f22e-41a3-b8af-34ab86c6301c")
+		(property "Reference" "R155"
+			(at 236.728 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 235.966 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 230.632 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part #" "P1.50KLCT-ND"
+			(at 232.41 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25900"
+			(at 232.41 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "208c2763-6994-400a-ac07-d6a2ea918170")
+		)
+		(pin "2"
+			(uuid "b9dc3f59-b0be-402f-afbb-9fbfed384285")
+		)
+		(instances
+			(project "Systemboard"
+				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c/60a7bbcf-cdb5-42ef-b224-050c5add5d3c"
+					(reference "R155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 50.8 87.63 0)
 		(unit 1)
@@ -3010,109 +3111,6 @@
 			(project "Systemboard"
 				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c/60a7bbcf-cdb5-42ef-b224-050c5add5d3c"
 					(reference "#PWR0302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 223.52 82.55 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "19a81851-1e59-426e-918a-4ad0c0c0a644")
-		(property "Reference" "R301"
-			(at 226.06 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 226.06 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 225.298 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Part #" "1276-3431-1-ND"
-			(at 223.52 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C25744"
-			(at 223.52 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1fd710f7-fac7-45e8-be6f-e9b785cf3941")
-		)
-		(pin "2"
-			(uuid "368da1b3-2a85-4845-9027-ae42f894e4e1")
-		)
-		(instances
-			(project "Systemboard"
-				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c/60a7bbcf-cdb5-42ef-b224-050c5add5d3c"
-					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -3759,7 +3757,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 232.41 82.55 180)
+		(at 223.52 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3767,31 +3765,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6b10abef-5ec7-4cdb-a2fa-933353e65539")
-		(property "Reference" "R302"
-			(at 234.95 81.28 0)
+		(uuid "7b093726-5426-4fb9-841a-346e39387c6e")
+		(property "Reference" "R154"
+			(at 227.838 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 234.95 83.82 0)
+		(property "Value" "4k7"
+			(at 227.076 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 234.188 82.55 90)
+			(at 221.742 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3802,7 +3798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 82.55 0)
+			(at 223.52 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3813,7 +3809,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.41 82.55 0)
+			(at 223.52 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3823,8 +3819,8 @@
 				)
 			)
 		)
-		(property "DigiKey Part #" "1276-3431-1-ND"
-			(at 232.41 82.55 0)
+		(property "DigiKey Part #" "P1.50KLCT-ND"
+			(at 223.52 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3834,8 +3830,8 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C25744"
-			(at 232.41 82.55 0)
+		(property "JLCPCB Part #" "C25900"
+			(at 223.52 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3846,15 +3842,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d072c2e-e71b-4ba6-9b0b-ce7c11d0936f")
+			(uuid "b14e86de-ece6-42bd-8d6d-8e78d2d936e8")
 		)
 		(pin "2"
-			(uuid "671013d4-45e7-48c5-9c8d-555508a9fa51")
+			(uuid "1773a347-d351-4e76-9c8e-f49f3bff871b")
 		)
 		(instances
 			(project "Systemboard"
 				(path "/2f4830bd-672b-4d5b-b8d7-989ae91c893c/60a7bbcf-cdb5-42ef-b224-050c5add5d3c"
-					(reference "R302")
+					(reference "R154")
 					(unit 1)
 				)
 			)
