@@ -8754,7 +8754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "External_Parts:SS0750301F040P1A"
+		(property "Footprint" "External_Parts:microswitch"
 			(at 95.25 132.41 0)
 			(hide yes)
 			(show_name no)
@@ -12401,7 +12401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "External_Parts:SS0750301F040P1A"
+		(property "Footprint" "External_Parts:microswitch"
 			(at 95.25 108.28 0)
 			(hide yes)
 			(show_name no)
