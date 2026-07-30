@@ -538,9 +538,20 @@
       },
       {
         "clearance": 0.2,
-        "name": "Power",
+        "name": "Not Auto Route",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 1.1,
+        "via_drill": 0.8
+      },
+      {
+        "clearance": 0.2,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "tuning_profile": "",
@@ -563,7 +574,7 @@
         "pattern": "+12V"
       },
       {
-        "netclass": "Power",
+        "netclass": "Not Auto Route",
         "pattern": "GND"
       },
       {
